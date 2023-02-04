@@ -1,0 +1,30 @@
+browser:
+  bot_mitigation: true
+  browser: firefox
+  callstack_instrument: false
+  cookie_instrument: true
+  display_mode: headless
+  dns_instrument: false
+  do_not_track: false
+  http_instrument: true
+  js_instrument: false
+  navigation_instrument: true
+  tp_cookies: always
+  tracking_protection: false
+crawl_id: 100
+directories:
+  base: /opt/user/
+  data: screenshot_0/data/
+  download: screenshot_0/downloads/
+  profile: profile/
+meta: default
+platform:
+  memory_watchdog: false
+  num_browsers: 1
+  process_watchdog: false
+seed_tar: /opt/user/profile/profile.tar.gz
+storage:
+  logfile: u1000_s0.log
+  name: u1000_s0.db
+  type: sqlite
+user: 1000

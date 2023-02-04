@@ -1,0 +1,1073 @@
+2022-08-25 12:36:58,381 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: Launching browser...
+2022-08-25 12:36:58,383 - MainProcess[MainThread]- browser_manager      - DEBUG   : BROWSER 3776262813: Spawn attempt 0 
+2022-08-25 12:36:58,383 - MainProcess[MainThread]- storage_controller   - DEBUG   : Initializing new handler
+2022-08-25 12:36:58,389 - MainProcess[MainThread]- deploy_firefox       - INFO    : BROWSER 3776262813: Loading initial browser profile from: /opt/user/profile/profile.tar.gz
+2022-08-25 12:37:03,388 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 0 visit_ids
+2022-08-25 12:37:08,394 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 0 visit_ids
+2022-08-25 12:37:08,755 - MainProcess[MainThread]- profile_commands     - DEBUG   : BROWSER 3776262813: Tarfile extracted
+2022-08-25 12:37:08,765 - MainProcess[MainThread]- deploy_firefox       - DEBUG   : BROWSER 3776262813: Saved extension config file to: /tmp/firefox_profile_uhxk08d8/browser_params.json
+2022-08-25 12:37:10,183 - MainProcess[MainThread]- deploy_firefox       - DEBUG   : BROWSER 3776262813: OpenWPM Firefox extension loaded
+2022-08-25 12:37:10,197 - MainProcess[MainThread]- browser_manager      - DEBUG   : BROWSER 3776262813: Looking for extension port information in /tmp/firefox_profile_uhxk08d8
+2022-08-25 12:37:10,199 - MainProcess[MainThread]- storage_controller   - DEBUG   : Initializing new handler
+2022-08-25 12:37:10,229 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : Navigation instrumentation enabled
+2022-08-25 12:37:10,229 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : Cookie instrumentation enabled
+2022-08-25 12:37:10,230 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : HTTP Instrumentation enabled
+2022-08-25 12:37:10,298 - MainProcess[MainThread]- browser_manager      - DEBUG   : BROWSER 3776262813: Connecting to extension on port 46205
+2022-08-25 12:37:10,299 - MainProcess[MainThread]- browser_manager      - DEBUG   : BROWSER 3776262813: BrowserManager ready.
+2022-08-25 12:37:10,300 - MainProcess[MainThread]- browser_manager      - DEBUG   : BROWSER 3776262813: Browser spawn successful!
+2022-08-25 12:37:10,349 - MainProcess[MainThread]- storage_controller   - DEBUG   : Initializing new handler
+2022-08-25 12:37:10,356 - MainProcess[MainThread]- task_manager         - INFO    : 
+
+OpenWPM Version: 0.20.0
+Firefox Version: b'100.0'
+
+========== Manager Configuration ==========
+{
+  "_failure_limit": null,
+  "data_directory": "/opt/user/screenshot_0/data",
+  "log_path": "/opt/user/screenshot_0/data/u1000_s0.log",
+  "logger_address": [
+    "127.0.0.1",
+    46437
+  ],
+  "memory_watchdog": false,
+  "num_browsers": 1,
+  "process_watchdog": false,
+  "screenshot_path": "/opt/user/screenshot_0/data/screenshots",
+  "source_dump_path": "/opt/user/screenshot_0/data/sources",
+  "storage_controller_address": [
+    "127.0.0.1",
+    38933
+  ],
+  "testing": false
+}
+
+========== Browser Configuration ==========
+Keys:
+{
+  "browser_id": 0,
+  "bot_mitigation": 1,
+  "browser": 2,
+  "callstack_instrument": 3,
+  "cookie_instrument": 4,
+  "custom_params": 5,
+  "display_mode": 6,
+  "dns_instrument": 7,
+  "donottrack": 8,
+  "extension_enabled": 9,
+  "http_instrument": 10,
+  "js_instrument": 11,
+  "js_instrument_settings": 12,
+  "navigation_instrument": 13,
+  "prefs": 14,
+  "profile_path": 15,
+  "recovery_tar": 16,
+  "save_content": 17,
+  "tp_cookies": 18,
+  "tracking_protection": 19
+}
+
+         0  1     2        3      4     5                                                                                                                                                                                                                       6         7      8      9     10    11     12                             13    14    15    16    17     18      19
+----------  ----  -------  -----  ----  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  --------  -----  -----  ----  ----  -----  -----------------------------  ----  ----  ----  ----  -----  ------  -----
+3776262813  True  firefox  False  True  {'browser.download.useDownloadDir': True, 'browser.download.folderList': 2, 'browser.download.dir': '/opt/user/screenshot_0/downloads/', 'browser.helperApps.neverAsk.saveToDisk': 'text/csv', 'pdfjs.disabled': True}  headless  False  False  True  True  False  ['collection_fingerprinting']  True  {}                False  always  False
+
+========== JS Instrument Settings ==========
+{"3776262813":[{"object":"window['ScriptProcessorNode'].prototype","instrumentedName":"ScriptProcessorNode","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window['GainNode'].prototype","instrumentedName":"GainNode","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window['AnalyserNode'].prototype","instrumentedName":"AnalyserNode","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window['OscillatorNode'].prototype","instrumentedName":"OscillatorNode","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window['OfflineAudioContext'].prototype","instrumentedName":"OfflineAudioContext","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window['AudioContext'].prototype","instrumentedName":"AudioContext","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window['RTCPeerConnection'].prototype","instrumentedName":"RTCPeerConnection","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window['HTMLCanvasElement'].prototype","instrumentedName":"HTMLCanvasElement","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window['Storage'].prototype","instrumentedName":"Storage","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window.navigator","instrumentedName":"window.navigator","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window['CanvasRenderingContext2D'].prototype","instrumentedName":"CanvasRenderingContext2D","logSettings":{"propertiesToInstrument":[],"nonExistingPropertiesToInstrument":[],"excludedProperties":["drawImage","closePath","clearRect","beginPath","quadraticCurveTo","transform","lineTo","moveTo","translate","setTransform","canvas","globalAlpha"],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window","instrumentedName":"window","logSettings":{"propertiesToInstrument":["name","localStorage","sessionStorage"],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window.document","instrumentedName":"window.document","logSettings":{"propertiesToInstrument":["referrer","cookie"],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":true,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}},{"object":"window.screen","instrumentedName":"window.screen","logSettings":{"propertiesToInstrument":["pixelDepth","colorDepth"],"nonExistingPropertiesToInstrument":[],"excludedProperties":[],"logCallStack":false,"logFunctionsAsStrings":false,"logFunctionGets":false,"preventSets":false,"recursive":false,"depth":5}}]}
+
+========== Input profile tar files ==========
+{
+  "3776262813": "/opt/user/profile/profile.tar.gz"
+}
+
+========== Output (archive) profile dirs ==========
+{
+  "3776262813": "/opt/user/profile"
+}
+
+
+2022-08-25 12:37:10,357 - MainProcess[MainThread]- task_manager         - DEBUG   : Checking command failure status indicator...
+2022-08-25 12:37:10,358 - MainProcess[Thread-8 (execute_command_sequence)]- browser_manager      - INFO    : Starting to work on CommandSequence with visit_id 4849661860382968 on browser with id 3776262813
+2022-08-25 12:37:10,360 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: InitializeCommand()
+2022-08-25 12:37:10,363 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: GetCommand(https://www.youtube.com/,10)
+2022-08-25 12:37:10,370 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : Setting visit_id the legacy way
+2022-08-25 12:37:10,372 - MainProcess[MainThread]- storage_controller   - INFO    : Awaiting all tasks for visit_id -1
+2022-08-25 12:37:10,374 - MainProcess[MainThread]- storage_controller   - DEBUG   : Awaited all tasks for visit_id -1 while finalizing
+2022-08-25 12:37:12,334 - MainProcess[MainThread]- storage_controller   - INFO    : Terminating handler, because the underlying socket closed
+2022-08-25 12:37:13,395 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:37:14,361 - MainProcess[OpenWPM-completion_handler]- task_manager         - DEBUG   : Invoking callback of visit_id -1
+2022-08-25 12:37:18,397 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:37:23,400 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:37:28,402 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:37:33,405 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:37:35,894 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: ScreenshotFullPageCommand(_0)
+2022-08-25 12:37:36,170 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: FinalizeCommand(5)
+2022-08-25 12:37:38,409 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:37:41,258 - MainProcess[Thread-8 (execute_command_sequence)]- browser_manager      - INFO    : Finished working on CommandSequence with visit_id 4849661860382968 on browser with id 3776262813
+2022-08-25 12:37:41,259 - MainProcess[MainThread]- storage_controller   - INFO    : Awaiting all tasks for visit_id 4849661860382968
+2022-08-25 12:37:41,259 - MainProcess[MainThread]- storage_controller   - DEBUG   : Awaited all tasks for visit_id 4849661860382968 while finalizing
+2022-08-25 12:37:43,306 - MainProcess[MainThread]- task_manager         - DEBUG   : Checking command failure status indicator...
+2022-08-25 12:37:43,307 - MainProcess[Thread-9 (execute_command_sequence)]- browser_manager      - INFO    : Starting to work on CommandSequence with visit_id 8896293674221770 on browser with id 3776262813
+2022-08-25 12:37:43,309 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: InitializeCommand()
+2022-08-25 12:37:43,311 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: GetCommand(https://www.yahoo.com/,10)
+2022-08-25 12:37:43,316 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : Setting visit_id the legacy way
+2022-08-25 12:37:43,414 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:37:44,391 - MainProcess[OpenWPM-completion_handler]- task_manager         - DEBUG   : Invoking callback of visit_id 4849661860382968
+2022-08-25 12:37:48,417 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:37:53,422 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:37:58,425 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:38:03,431 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:38:08,433 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:38:13,325 - MainProcess[MainThread]- storage_controller   - DEBUG   : Saving current records since no new data has been written for 30 seconds.
+2022-08-25 12:38:13,434 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:38:18,437 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:38:23,443 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:38:28,449 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:38:33,455 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:38:38,461 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:38:43,462 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:38:48,469 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:38:53,474 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:38:58,480 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:39:03,486 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:39:08,493 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:39:13,494 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:39:18,499 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:39:23,505 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:39:28,509 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:39:30,526 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: ScreenshotFullPageCommand(_1)
+2022-08-25 12:39:30,590 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: FinalizeCommand(5)
+2022-08-25 12:39:33,513 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:39:35,628 - MainProcess[Thread-9 (execute_command_sequence)]- browser_manager      - INFO    : Finished working on CommandSequence with visit_id 8896293674221770 on browser with id 3776262813
+2022-08-25 12:39:35,629 - MainProcess[MainThread]- storage_controller   - INFO    : Awaiting all tasks for visit_id 8896293674221770
+2022-08-25 12:39:35,630 - MainProcess[MainThread]- storage_controller   - DEBUG   : Awaited all tasks for visit_id 8896293674221770 while finalizing
+2022-08-25 12:39:37,673 - MainProcess[MainThread]- task_manager         - DEBUG   : Checking command failure status indicator...
+2022-08-25 12:39:37,674 - MainProcess[Thread-10 (execute_command_sequence)]- browser_manager      - INFO    : Starting to work on CommandSequence with visit_id 6264624114603628 on browser with id 3776262813
+2022-08-25 12:39:37,676 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: InitializeCommand()
+2022-08-25 12:39:37,677 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: GetCommand(https://www.espn.com/,10)
+2022-08-25 12:39:37,682 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : Setting visit_id the legacy way
+2022-08-25 12:39:38,515 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:39:39,508 - MainProcess[OpenWPM-completion_handler]- task_manager         - DEBUG   : Invoking callback of visit_id 8896293674221770
+2022-08-25 12:39:43,516 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:39:48,517 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:39:53,519 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:39:58,520 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:40:00,299 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: ScreenshotFullPageCommand(_2)
+2022-08-25 12:40:03,522 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:40:03,707 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: FinalizeCommand(5)
+2022-08-25 12:40:08,528 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:40:08,822 - MainProcess[Thread-10 (execute_command_sequence)]- browser_manager      - INFO    : Finished working on CommandSequence with visit_id 6264624114603628 on browser with id 3776262813
+2022-08-25 12:40:08,823 - MainProcess[MainThread]- storage_controller   - INFO    : Awaiting all tasks for visit_id 6264624114603628
+2022-08-25 12:40:08,823 - MainProcess[MainThread]- storage_controller   - DEBUG   : Awaited all tasks for visit_id 6264624114603628 while finalizing
+2022-08-25 12:40:10,923 - MainProcess[MainThread]- task_manager         - DEBUG   : Checking command failure status indicator...
+2022-08-25 12:40:10,924 - MainProcess[Thread-11 (execute_command_sequence)]- browser_manager      - INFO    : Starting to work on CommandSequence with visit_id 4398080349634777 on browser with id 3776262813
+2022-08-25 12:40:10,926 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: InitializeCommand()
+2022-08-25 12:40:10,927 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: GetCommand(https://weather.com/,10)
+2022-08-25 12:40:10,934 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : Setting visit_id the legacy way
+2022-08-25 12:40:13,532 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 1 scheduled tasks for 1 visit_ids
+2022-08-25 12:40:13,542 - MainProcess[OpenWPM-completion_handler]- task_manager         - DEBUG   : Invoking callback of visit_id 6264624114603628
+2022-08-25 12:40:18,534 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:40:23,535 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:40:28,537 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:40:33,538 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:40:36,126 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: ScreenshotFullPageCommand(_3)
+2022-08-25 12:40:36,512 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: FinalizeCommand(5)
+2022-08-25 12:40:38,540 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:40:41,789 - MainProcess[Thread-11 (execute_command_sequence)]- browser_manager      - INFO    : Finished working on CommandSequence with visit_id 4398080349634777 on browser with id 3776262813
+2022-08-25 12:40:41,790 - MainProcess[MainThread]- storage_controller   - INFO    : Awaiting all tasks for visit_id 4398080349634777
+2022-08-25 12:40:41,790 - MainProcess[MainThread]- storage_controller   - DEBUG   : Awaited all tasks for visit_id 4398080349634777 while finalizing
+2022-08-25 12:40:43,541 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 0 visit_ids
+2022-08-25 12:40:43,574 - MainProcess[OpenWPM-completion_handler]- task_manager         - DEBUG   : Invoking callback of visit_id 4398080349634777
+2022-08-25 12:40:43,872 - MainProcess[MainThread]- task_manager         - DEBUG   : Checking command failure status indicator...
+2022-08-25 12:40:43,873 - MainProcess[Thread-12 (execute_command_sequence)]- browser_manager      - INFO    : Starting to work on CommandSequence with visit_id 7437943725434946 on browser with id 3776262813
+2022-08-25 12:40:43,874 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: InitializeCommand()
+2022-08-25 12:40:43,876 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: GetCommand(https://www.accuweather.com/,10)
+2022-08-25 12:40:43,882 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : Setting visit_id the legacy way
+2022-08-25 12:40:48,551 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:40:53,552 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:40:58,554 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:41:03,555 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:41:08,557 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:41:13,559 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:41:18,561 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:41:23,562 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:41:23,806 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: ScreenshotFullPageCommand(_4)
+2022-08-25 12:41:24,440 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: FinalizeCommand(5)
+2022-08-25 12:41:28,565 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:41:29,693 - MainProcess[Thread-12 (execute_command_sequence)]- browser_manager      - INFO    : Finished working on CommandSequence with visit_id 7437943725434946 on browser with id 3776262813
+2022-08-25 12:41:29,694 - MainProcess[MainThread]- storage_controller   - INFO    : Awaiting all tasks for visit_id 7437943725434946
+2022-08-25 12:41:29,695 - MainProcess[MainThread]- storage_controller   - DEBUG   : Awaited all tasks for visit_id 7437943725434946 while finalizing
+2022-08-25 12:41:31,744 - MainProcess[MainThread]- task_manager         - DEBUG   : Checking command failure status indicator...
+2022-08-25 12:41:31,746 - MainProcess[Thread-13 (execute_command_sequence)]- browser_manager      - INFO    : Starting to work on CommandSequence with visit_id 7587032275371311 on browser with id 3776262813
+2022-08-25 12:41:31,747 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: InitializeCommand()
+2022-08-25 12:41:31,749 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: GetCommand(https://www.fandom.com/,10)
+2022-08-25 12:41:31,756 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : Setting visit_id the legacy way
+2022-08-25 12:41:33,571 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:41:33,625 - MainProcess[OpenWPM-completion_handler]- task_manager         - DEBUG   : Invoking callback of visit_id 7437943725434946
+2022-08-25 12:41:38,572 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:41:43,574 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:41:48,576 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:41:50,636 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: ScreenshotFullPageCommand(_5)
+2022-08-25 12:41:53,079 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: FinalizeCommand(5)
+2022-08-25 12:41:53,578 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:41:58,157 - MainProcess[Thread-13 (execute_command_sequence)]- browser_manager      - INFO    : Finished working on CommandSequence with visit_id 7587032275371311 on browser with id 3776262813
+2022-08-25 12:41:58,158 - MainProcess[MainThread]- storage_controller   - INFO    : Awaiting all tasks for visit_id 7587032275371311
+2022-08-25 12:41:58,159 - MainProcess[MainThread]- storage_controller   - DEBUG   : Awaited all tasks for visit_id 7587032275371311 while finalizing
+2022-08-25 12:41:58,579 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 0 visit_ids
+2022-08-25 12:41:58,649 - MainProcess[OpenWPM-completion_handler]- task_manager         - DEBUG   : Invoking callback of visit_id 7587032275371311
+2022-08-25 12:42:00,187 - MainProcess[MainThread]- task_manager         - DEBUG   : Checking command failure status indicator...
+2022-08-25 12:42:00,188 - MainProcess[Thread-14 (execute_command_sequence)]- browser_manager      - INFO    : Starting to work on CommandSequence with visit_id 1176431980370211 on browser with id 3776262813
+2022-08-25 12:42:00,190 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: InitializeCommand()
+2022-08-25 12:42:00,191 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: GetCommand(https://www.twitch.tv/,10)
+2022-08-25 12:42:00,198 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : Setting visit_id the legacy way
+2022-08-25 12:42:03,583 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:42:08,584 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:42:13,587 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:42:18,589 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:42:20,031 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: ScreenshotFullPageCommand(_6)
+2022-08-25 12:42:20,194 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: FinalizeCommand(5)
+2022-08-25 12:42:23,590 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:42:25,271 - MainProcess[Thread-14 (execute_command_sequence)]- browser_manager      - INFO    : Finished working on CommandSequence with visit_id 1176431980370211 on browser with id 3776262813
+2022-08-25 12:42:25,272 - MainProcess[MainThread]- storage_controller   - INFO    : Awaiting all tasks for visit_id 1176431980370211
+2022-08-25 12:42:25,273 - MainProcess[MainThread]- storage_controller   - DEBUG   : Awaited all tasks for visit_id 1176431980370211 while finalizing
+2022-08-25 12:42:27,328 - MainProcess[MainThread]- task_manager         - DEBUG   : Checking command failure status indicator...
+2022-08-25 12:42:27,329 - MainProcess[Thread-15 (execute_command_sequence)]- browser_manager      - INFO    : Starting to work on CommandSequence with visit_id 2319249190312226 on browser with id 3776262813
+2022-08-25 12:42:27,332 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: InitializeCommand()
+2022-08-25 12:42:27,333 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: GetCommand(https://definition.org/,10)
+2022-08-25 12:42:27,340 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : Setting visit_id the legacy way
+2022-08-25 12:42:28,592 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:42:28,680 - MainProcess[OpenWPM-completion_handler]- task_manager         - DEBUG   : Invoking callback of visit_id 1176431980370211
+2022-08-25 12:42:33,595 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:42:38,597 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:42:43,600 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:42:48,602 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:42:49,774 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: ScreenshotFullPageCommand(_7)
+2022-08-25 12:42:50,139 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: FinalizeCommand(5)
+2022-08-25 12:42:53,604 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:42:55,215 - MainProcess[Thread-15 (execute_command_sequence)]- browser_manager      - INFO    : Finished working on CommandSequence with visit_id 2319249190312226 on browser with id 3776262813
+2022-08-25 12:42:55,216 - MainProcess[MainThread]- storage_controller   - INFO    : Awaiting all tasks for visit_id 2319249190312226
+2022-08-25 12:42:55,217 - MainProcess[MainThread]- storage_controller   - DEBUG   : Awaited all tasks for visit_id 2319249190312226 while finalizing
+2022-08-25 12:42:57,273 - MainProcess[MainThread]- task_manager         - DEBUG   : Checking command failure status indicator...
+2022-08-25 12:42:57,274 - MainProcess[Thread-16 (execute_command_sequence)]- browser_manager      - INFO    : Starting to work on CommandSequence with visit_id 3822960338427677 on browser with id 3776262813
+2022-08-25 12:42:57,276 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: InitializeCommand()
+2022-08-25 12:42:57,278 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: GetCommand(https://www.aol.com/,10)
+2022-08-25 12:42:57,289 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : Setting visit_id the legacy way
+2022-08-25 12:42:58,609 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:42:58,714 - MainProcess[OpenWPM-completion_handler]- task_manager         - DEBUG   : Invoking callback of visit_id 2319249190312226
+2022-08-25 12:43:03,610 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:43:08,611 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:43:13,612 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:43:18,614 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:43:23,616 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:43:23,710 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: ScreenshotFullPageCommand(_8)
+2022-08-25 12:43:24,514 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: FinalizeCommand(5)
+2022-08-25 12:43:28,618 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:43:29,640 - MainProcess[Thread-16 (execute_command_sequence)]- browser_manager      - INFO    : Finished working on CommandSequence with visit_id 3822960338427677 on browser with id 3776262813
+2022-08-25 12:43:29,641 - MainProcess[MainThread]- storage_controller   - INFO    : Awaiting all tasks for visit_id 3822960338427677
+2022-08-25 12:43:29,642 - MainProcess[MainThread]- storage_controller   - DEBUG   : Awaited all tasks for visit_id 3822960338427677 while finalizing
+2022-08-25 12:43:31,118 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - WARNING : Extension-3776262813 : visitID is null while attempting to insert into table javascript_cookies
+{"record_type":"deleted","change_cause":"overwrite","browser_id":3776262813,"extension_session_uuid":"76b55e48-a27b-4198-bc9b-a4a3b6b52665","event_ordinal":13436,"expiry":"2023-08-25T18:43:31.000Z","is_http_only":1,"is_host_only":0,"is_session":0,"host":".yahoo.com","is_secure":1,"name":"A3","path":"/","value":"d=AQABBHmM0GICEJzbRZZjTG1vYnuiAAHXBAUFEgEBAQHd0WLaYgAAAAAA_eMAAAcIeYzQYgHXBAU&S=AQAAAi8QDlyNPWArnr0J0lHIQeQ","same_site":"no_restriction","first_party_domain":"","store_id":"firefox-default","time_stamp":"2022-08-25T12:43:31.118Z","visit_id":null}
+2022-08-25 12:43:31,119 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - WARNING : Extension-3776262813 : visitID is null while attempting to insert into table javascript_cookies
+{"record_type":"added-or-changed","change_cause":"explicit","browser_id":3776262813,"extension_session_uuid":"76b55e48-a27b-4198-bc9b-a4a3b6b52665","event_ordinal":13437,"expiry":"2023-08-25T18:43:31.000Z","is_http_only":1,"is_host_only":0,"is_session":0,"host":".yahoo.com","is_secure":1,"name":"A3","path":"/","value":"d=AQABBHmM0GICEJzbRZZjTG1vYnuiAAHXBAUFEgEBAQHd0WLaYgAAAAAA_eMAAAcIeYzQYgHXBAU&S=AQAAAi8QDlyNPWArnr0J0lHIQeQ","same_site":"no_restriction","first_party_domain":"","store_id":"firefox-default","time_stamp":"2022-08-25T12:43:31.119Z","visit_id":null}
+2022-08-25 12:43:31,119 - MainProcess[MainThread]- sql_provider         - ERROR   : Unsupported record:
+<class 'sqlite3.IntegrityError'>
+NOT NULL constraint failed: javascript_cookies.visit_id
+INSERT INTO javascript_cookies (record_type, change_cause, browser_id, extension_session_uuid, event_ordinal, expiry, is_http_only, is_host_only, is_session, host, is_secure, name, path, value, same_site, first_party_domain, store_id, time_stamp) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+['deleted', 'overwrite', 3776262813, '76b55e48-a27b-4198-bc9b-a4a3b6b52665', 13436, '2023-08-25T18:43:31.000Z', 1, 0, 0, '.yahoo.com', 1, 'A3', '/', 'd=AQABBHmM0GICEJzbRZZjTG1vYnuiAAHXBAUFEgEBAQHd0WLaYgAAAAAA_eMAAAcIeYzQYgHXBAU&S=AQAAAi8QDlyNPWArnr0J0lHIQeQ', 'no_restriction', '', 'firefox-default', '2022-08-25T12:43:31.118Z']
+
+2022-08-25 12:43:31,120 - MainProcess[MainThread]- sql_provider         - ERROR   : Unsupported record:
+<class 'sqlite3.IntegrityError'>
+NOT NULL constraint failed: javascript_cookies.visit_id
+INSERT INTO javascript_cookies (record_type, change_cause, browser_id, extension_session_uuid, event_ordinal, expiry, is_http_only, is_host_only, is_session, host, is_secure, name, path, value, same_site, first_party_domain, store_id, time_stamp) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+['added-or-changed', 'explicit', 3776262813, '76b55e48-a27b-4198-bc9b-a4a3b6b52665', 13437, '2023-08-25T18:43:31.000Z', 1, 0, 0, '.yahoo.com', 1, 'A3', '/', 'd=AQABBHmM0GICEJzbRZZjTG1vYnuiAAHXBAUFEgEBAQHd0WLaYgAAAAAA_eMAAAcIeYzQYgHXBAU&S=AQAAAi8QDlyNPWArnr0J0lHIQeQ', 'no_restriction', '', 'firefox-default', '2022-08-25T12:43:31.119Z']
+
+2022-08-25 12:43:31,740 - MainProcess[MainThread]- task_manager         - DEBUG   : Checking command failure status indicator...
+2022-08-25 12:43:31,740 - MainProcess[Thread-17 (execute_command_sequence)]- browser_manager      - INFO    : Starting to work on CommandSequence with visit_id 1903514259957540 on browser with id 3776262813
+2022-08-25 12:43:31,744 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: InitializeCommand()
+2022-08-25 12:43:31,748 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: GetCommand(https://www.imdb.com/,10)
+2022-08-25 12:43:31,756 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : Setting visit_id the legacy way
+2022-08-25 12:43:33,620 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:43:33,750 - MainProcess[OpenWPM-completion_handler]- task_manager         - DEBUG   : Invoking callback of visit_id 3822960338427677
+2022-08-25 12:43:38,622 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:43:43,623 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:43:48,627 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:43:53,633 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:43:58,635 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 1 scheduled tasks for 2 visit_ids
+2022-08-25 12:44:03,636 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:44:08,639 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:44:13,641 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:44:18,644 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:44:19,562 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: ScreenshotFullPageCommand(_9)
+2022-08-25 12:44:20,918 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: FinalizeCommand(5)
+2022-08-25 12:44:23,648 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:44:25,997 - MainProcess[Thread-17 (execute_command_sequence)]- browser_manager      - INFO    : Finished working on CommandSequence with visit_id 1903514259957540 on browser with id 3776262813
+2022-08-25 12:44:25,998 - MainProcess[MainThread]- storage_controller   - INFO    : Awaiting all tasks for visit_id 1903514259957540
+2022-08-25 12:44:25,998 - MainProcess[MainThread]- storage_controller   - DEBUG   : Awaited all tasks for visit_id 1903514259957540 while finalizing
+2022-08-25 12:44:28,025 - MainProcess[MainThread]- task_manager         - DEBUG   : Checking command failure status indicator...
+2022-08-25 12:44:28,026 - MainProcess[Thread-18 (execute_command_sequence)]- browser_manager      - INFO    : Starting to work on CommandSequence with visit_id 486042190470569 on browser with id 3776262813
+2022-08-25 12:44:28,027 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: InitializeCommand()
+2022-08-25 12:44:28,029 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: GetCommand(https://www.tripadvisor.com/,10)
+2022-08-25 12:44:28,035 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : Setting visit_id the legacy way
+2022-08-25 12:44:28,650 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:44:28,806 - MainProcess[OpenWPM-completion_handler]- task_manager         - DEBUG   : Invoking callback of visit_id 1903514259957540
+2022-08-25 12:44:33,652 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:44:38,654 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:44:43,655 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:44:48,657 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:44:52,149 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: ScreenshotFullPageCommand(_10)
+2022-08-25 12:44:53,315 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: FinalizeCommand(5)
+2022-08-25 12:44:53,658 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:44:58,419 - MainProcess[Thread-18 (execute_command_sequence)]- browser_manager      - INFO    : Finished working on CommandSequence with visit_id 486042190470569 on browser with id 3776262813
+2022-08-25 12:44:58,420 - MainProcess[MainThread]- storage_controller   - INFO    : Awaiting all tasks for visit_id 486042190470569
+2022-08-25 12:44:58,421 - MainProcess[MainThread]- storage_controller   - DEBUG   : Awaited all tasks for visit_id 486042190470569 while finalizing
+2022-08-25 12:44:58,661 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:44:58,835 - MainProcess[OpenWPM-completion_handler]- task_manager         - DEBUG   : Invoking callback of visit_id 486042190470569
+2022-08-25 12:45:00,475 - MainProcess[MainThread]- task_manager         - DEBUG   : Checking command failure status indicator...
+2022-08-25 12:45:00,476 - MainProcess[Thread-19 (execute_command_sequence)]- browser_manager      - INFO    : Starting to work on CommandSequence with visit_id 2638851982217792 on browser with id 3776262813
+2022-08-25 12:45:00,478 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: InitializeCommand()
+2022-08-25 12:45:00,480 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: GetCommand(https://www.fanfiction.net/,10)
+2022-08-25 12:45:00,489 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : Setting visit_id the legacy way
+2022-08-25 12:45:03,663 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:45:08,665 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:45:13,670 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:45:18,676 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:45:23,682 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:45:26,927 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: ScreenshotFullPageCommand(_11)
+2022-08-25 12:45:27,082 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: FinalizeCommand(5)
+2022-08-25 12:45:28,682 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:45:32,167 - MainProcess[Thread-19 (execute_command_sequence)]- browser_manager      - INFO    : Finished working on CommandSequence with visit_id 2638851982217792 on browser with id 3776262813
+2022-08-25 12:45:32,168 - MainProcess[MainThread]- storage_controller   - INFO    : Awaiting all tasks for visit_id 2638851982217792
+2022-08-25 12:45:32,169 - MainProcess[MainThread]- storage_controller   - DEBUG   : Awaited all tasks for visit_id 2638851982217792 while finalizing
+2022-08-25 12:45:33,686 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:45:33,867 - MainProcess[OpenWPM-completion_handler]- task_manager         - DEBUG   : Invoking callback of visit_id 2638851982217792
+2022-08-25 12:45:34,226 - MainProcess[MainThread]- task_manager         - DEBUG   : Checking command failure status indicator...
+2022-08-25 12:45:34,227 - MainProcess[Thread-20 (execute_command_sequence)]- browser_manager      - INFO    : Starting to work on CommandSequence with visit_id 2416843165171923 on browser with id 3776262813
+2022-08-25 12:45:34,229 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: InitializeCommand()
+2022-08-25 12:45:34,230 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: GetCommand(https://imgur.com/,10)
+2022-08-25 12:45:34,235 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : Setting visit_id the legacy way
+2022-08-25 12:45:38,688 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:45:43,689 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:45:48,695 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:45:53,701 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:45:58,704 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:46:03,710 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:46:08,713 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:46:10,693 - MainProcess[MainThread]- storage_controller   - DEBUG   : Saving current records since no new data has been written for 30 seconds.
+2022-08-25 12:46:13,717 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:46:18,721 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:46:23,725 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:46:28,728 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:46:33,733 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:46:38,738 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:46:43,742 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:46:48,748 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:46:53,754 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:46:58,759 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:47:03,761 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:47:08,764 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:47:13,768 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:47:18,772 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:47:22,034 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: ScreenshotFullPageCommand(_12)
+2022-08-25 12:47:23,526 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: FinalizeCommand(5)
+2022-08-25 12:47:23,773 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:47:28,627 - MainProcess[Thread-20 (execute_command_sequence)]- browser_manager      - INFO    : Finished working on CommandSequence with visit_id 2416843165171923 on browser with id 3776262813
+2022-08-25 12:47:28,629 - MainProcess[MainThread]- storage_controller   - INFO    : Awaiting all tasks for visit_id 2416843165171923
+2022-08-25 12:47:28,629 - MainProcess[MainThread]- storage_controller   - DEBUG   : Awaited all tasks for visit_id 2416843165171923 while finalizing
+2022-08-25 12:47:28,777 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:47:28,982 - MainProcess[OpenWPM-completion_handler]- task_manager         - DEBUG   : Invoking callback of visit_id 2416843165171923
+2022-08-25 12:47:30,696 - MainProcess[MainThread]- task_manager         - DEBUG   : Checking command failure status indicator...
+2022-08-25 12:47:30,697 - MainProcess[Thread-21 (execute_command_sequence)]- browser_manager      - INFO    : Starting to work on CommandSequence with visit_id 3522410619630957 on browser with id 3776262813
+2022-08-25 12:47:30,700 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: InitializeCommand()
+2022-08-25 12:47:30,701 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: GetCommand(https://www.motorbiscuit.com/,10)
+2022-08-25 12:47:30,708 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : Setting visit_id the legacy way
+2022-08-25 12:47:33,778 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:47:38,780 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:47:43,781 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:47:48,783 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:47:53,785 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:47:58,789 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:48:01,362 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: ScreenshotFullPageCommand(_13)
+2022-08-25 12:48:02,433 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: FinalizeCommand(5)
+2022-08-25 12:48:03,792 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:48:07,491 - MainProcess[Thread-21 (execute_command_sequence)]- browser_manager      - INFO    : Finished working on CommandSequence with visit_id 3522410619630957 on browser with id 3776262813
+2022-08-25 12:48:07,493 - MainProcess[MainThread]- storage_controller   - INFO    : Awaiting all tasks for visit_id 3522410619630957
+2022-08-25 12:48:07,493 - MainProcess[MainThread]- storage_controller   - DEBUG   : Awaited all tasks for visit_id 3522410619630957 while finalizing
+2022-08-25 12:48:08,796 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:48:09,023 - MainProcess[OpenWPM-completion_handler]- task_manager         - DEBUG   : Invoking callback of visit_id 3522410619630957
+2022-08-25 12:48:09,555 - MainProcess[MainThread]- task_manager         - DEBUG   : Checking command failure status indicator...
+2022-08-25 12:48:09,556 - MainProcess[Thread-22 (execute_command_sequence)]- browser_manager      - INFO    : Starting to work on CommandSequence with visit_id 5153488624330286 on browser with id 3776262813
+2022-08-25 12:48:09,558 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: InitializeCommand()
+2022-08-25 12:48:09,559 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: GetCommand(https://people.com/,10)
+2022-08-25 12:48:09,565 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : Setting visit_id the legacy way
+2022-08-25 12:48:13,797 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:48:18,799 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:48:23,801 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:48:28,805 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:48:33,809 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:48:38,812 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:48:43,813 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:48:48,814 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:48:53,817 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:48:58,820 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:49:03,826 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:49:08,828 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:49:13,832 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:49:18,835 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:49:23,837 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:49:28,843 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:49:33,845 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:49:38,849 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:49:43,851 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:49:48,852 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:49:53,853 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:49:56,126 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: ScreenshotFullPageCommand(_14)
+2022-08-25 12:49:58,854 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:49:59,291 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: FinalizeCommand(5)
+2022-08-25 12:50:03,859 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:50:04,401 - MainProcess[Thread-22 (execute_command_sequence)]- browser_manager      - INFO    : Finished working on CommandSequence with visit_id 5153488624330286 on browser with id 3776262813
+2022-08-25 12:50:04,402 - MainProcess[MainThread]- storage_controller   - INFO    : Awaiting all tasks for visit_id 5153488624330286
+2022-08-25 12:50:04,403 - MainProcess[MainThread]- storage_controller   - DEBUG   : Awaited all tasks for visit_id 5153488624330286 while finalizing
+2022-08-25 12:50:06,424 - MainProcess[MainThread]- task_manager         - DEBUG   : Checking command failure status indicator...
+2022-08-25 12:50:06,425 - MainProcess[Thread-23 (execute_command_sequence)]- browser_manager      - INFO    : Starting to work on CommandSequence with visit_id 6872866479012470 on browser with id 3776262813
+2022-08-25 12:50:06,427 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: InitializeCommand()
+2022-08-25 12:50:06,429 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: GetCommand(https://www.nbcsports.com/,10)
+2022-08-25 12:50:06,438 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : Setting visit_id the legacy way
+2022-08-25 12:50:08,865 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:50:09,144 - MainProcess[OpenWPM-completion_handler]- task_manager         - DEBUG   : Invoking callback of visit_id 5153488624330286
+2022-08-25 12:50:13,866 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:50:18,868 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:50:23,869 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:50:28,871 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:50:33,872 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:50:38,873 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:50:43,874 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:50:48,876 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:50:53,877 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:50:58,879 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:51:03,885 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:51:04,562 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: ScreenshotFullPageCommand(_15)
+2022-08-25 12:51:07,144 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: FinalizeCommand(5)
+2022-08-25 12:51:08,888 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:51:12,244 - MainProcess[Thread-23 (execute_command_sequence)]- browser_manager      - INFO    : Finished working on CommandSequence with visit_id 6872866479012470 on browser with id 3776262813
+2022-08-25 12:51:12,245 - MainProcess[MainThread]- storage_controller   - INFO    : Awaiting all tasks for visit_id 6872866479012470
+2022-08-25 12:51:12,246 - MainProcess[MainThread]- storage_controller   - DEBUG   : Awaited all tasks for visit_id 6872866479012470 while finalizing
+2022-08-25 12:51:13,893 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:51:14,209 - MainProcess[OpenWPM-completion_handler]- task_manager         - DEBUG   : Invoking callback of visit_id 6872866479012470
+2022-08-25 12:51:14,324 - MainProcess[MainThread]- task_manager         - DEBUG   : Checking command failure status indicator...
+2022-08-25 12:51:14,325 - MainProcess[Thread-24 (execute_command_sequence)]- browser_manager      - INFO    : Starting to work on CommandSequence with visit_id 6435949136312956 on browser with id 3776262813
+2022-08-25 12:51:14,327 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: InitializeCommand()
+2022-08-25 12:51:14,328 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: GetCommand(https://www.businessinsider.com/,10)
+2022-08-25 12:51:14,334 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : Setting visit_id the legacy way
+2022-08-25 12:51:18,895 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:51:23,897 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:51:28,901 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:51:33,907 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:51:38,909 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:51:43,912 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:51:48,914 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:51:53,915 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:51:58,917 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:52:03,919 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:52:08,276 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: ScreenshotFullPageCommand(_16)
+2022-08-25 12:52:08,921 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:52:10,887 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: FinalizeCommand(5)
+2022-08-25 12:52:13,925 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:52:15,991 - MainProcess[Thread-24 (execute_command_sequence)]- browser_manager      - INFO    : Finished working on CommandSequence with visit_id 6435949136312956 on browser with id 3776262813
+2022-08-25 12:52:15,992 - MainProcess[MainThread]- storage_controller   - INFO    : Awaiting all tasks for visit_id 6435949136312956
+2022-08-25 12:52:15,992 - MainProcess[MainThread]- storage_controller   - DEBUG   : Awaited all tasks for visit_id 6435949136312956 while finalizing
+2022-08-25 12:52:18,017 - MainProcess[MainThread]- task_manager         - DEBUG   : Checking command failure status indicator...
+2022-08-25 12:52:18,018 - MainProcess[Thread-25 (execute_command_sequence)]- browser_manager      - INFO    : Starting to work on CommandSequence with visit_id 6389667723638984 on browser with id 3776262813
+2022-08-25 12:52:18,020 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: InitializeCommand()
+2022-08-25 12:52:18,022 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: GetCommand(https://allrecipes.com/,10)
+2022-08-25 12:52:18,030 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : Setting visit_id the legacy way
+2022-08-25 12:52:18,927 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:52:19,277 - MainProcess[OpenWPM-completion_handler]- task_manager         - DEBUG   : Invoking callback of visit_id 6435949136312956
+2022-08-25 12:52:23,929 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:52:28,931 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:52:33,932 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:52:38,935 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:52:43,939 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:52:48,941 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:52:53,944 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:52:58,945 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:53:03,949 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:53:08,952 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:53:13,956 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:53:18,958 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:53:23,961 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:53:28,965 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:53:33,969 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:53:38,973 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:53:43,977 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:53:48,980 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:53:53,982 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:53:58,984 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:54:03,985 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:54:07,759 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: ScreenshotFullPageCommand(_17)
+2022-08-25 12:54:08,987 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:54:10,135 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: FinalizeCommand(5)
+2022-08-25 12:54:13,991 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:54:15,271 - MainProcess[Thread-25 (execute_command_sequence)]- browser_manager      - INFO    : Finished working on CommandSequence with visit_id 6389667723638984 on browser with id 3776262813
+2022-08-25 12:54:15,272 - MainProcess[MainThread]- storage_controller   - INFO    : Awaiting all tasks for visit_id 6389667723638984
+2022-08-25 12:54:15,273 - MainProcess[MainThread]- storage_controller   - DEBUG   : Awaited all tasks for visit_id 6389667723638984 while finalizing
+2022-08-25 12:54:17,293 - MainProcess[MainThread]- task_manager         - DEBUG   : Checking command failure status indicator...
+2022-08-25 12:54:17,294 - MainProcess[Thread-26 (execute_command_sequence)]- browser_manager      - INFO    : Starting to work on CommandSequence with visit_id 1064146140010809 on browser with id 3776262813
+2022-08-25 12:54:17,296 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: InitializeCommand()
+2022-08-25 12:54:17,298 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: GetCommand(https://www.wunderground.com/,10)
+2022-08-25 12:54:17,304 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : Setting visit_id the legacy way
+2022-08-25 12:54:18,998 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:54:19,398 - MainProcess[OpenWPM-completion_handler]- task_manager         - DEBUG   : Invoking callback of visit_id 6389667723638984
+2022-08-25 12:54:23,999 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:54:29,001 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:54:34,002 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:54:36,377 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: ScreenshotFullPageCommand(_18)
+2022-08-25 12:54:37,308 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: FinalizeCommand(5)
+2022-08-25 12:54:39,003 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:54:42,461 - MainProcess[Thread-26 (execute_command_sequence)]- browser_manager      - INFO    : Finished working on CommandSequence with visit_id 1064146140010809 on browser with id 3776262813
+2022-08-25 12:54:42,462 - MainProcess[MainThread]- storage_controller   - INFO    : Awaiting all tasks for visit_id 1064146140010809
+2022-08-25 12:54:42,462 - MainProcess[MainThread]- storage_controller   - DEBUG   : Awaited all tasks for visit_id 1064146140010809 while finalizing
+2022-08-25 12:54:43,585 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - WARNING : Extension-3776262813 : visitID is null while attempting to insert into table http_responses
+{"incognito":0,"browser_id":3776262813,"extension_session_uuid":"76b55e48-a27b-4198-bc9b-a4a3b6b52665","event_ordinal":26162,"tab_id":-1,"frame_id":0,"request_id":7208,"is_cached":0,"url":"https://www.wunderground.com/0-es2015.637830ea30a9ac3b28d1.js","method":"GET","response_status":404,"response_status_text":"HTTP/2.0 404 Not Found","time_stamp":"2022-08-25T12:54:43.583Z","headers":"[[\"content-type\",\"text/html; charset=utf-8\"],[\"server-timing\",\"intid;desc=f982e5be5d4c572c\"],[\"access-control-allow-origin\",\"*\"],[\"x-frame-options\",\"sameorigin\"],[\"wxu-next-commit\",\"\"],[\"wxu-next-region\",\"\"],[\"wxu-next-hostname\",\"wu-next-7b4bbdb7b8-tvrvm\"],[\"webcakes-app-name\",\"wxu-next\"],[\"webcakes-app-version\",\"\"],[\"webcakes-region\",\"\"],[\"etag\",\"W/\\\"10591-EEcPw8/tvkeLBfnSLn+DGQoI90c\\\"\"],[\"vary\",\"Accept-Encoding\"],[\"content-encoding\",\"gzip\"],[\"strict-transport-security\",\"max-age=15724800; includeSubDomains\"],[\"content-length\",\"14846\"],[\"cache-control\",\"max-age=297\"],[\"expires\",\"Thu, 25 Aug 2022 12:59:40 GMT\"],[\"date\",\"Thu, 25 Aug 2022 12:54:43 GMT\"],[\"set-cookie\",\"ci=TWC-Connection-Speed=4G&TWC-Locale-Group=US&TWC-Device-Class=desktop&X-Origin-Hint=WU-Next-Default&TWC-Network-Type=wifi&TWC-GeoIP-Country=US&TWC-GeoIP-Lat=40.7500&TWC-GeoIP-Long=-73.9967&Akamai-Connection-Speed=1000+&TWC-Privacy=usa&TWC-GeoIP-DMA=501&TWC-GeoIP-City=NEWYORK&TWC-GeoIP-Region=NY; path=/; domain=.wunderground.com; secure\"],[\"property-id\",\"TWC-WU-Prod\"],[\"x-theme-asset\",\"1\"],[\"twc-privacy\",\"usa\"],[\"twc-geoip-region\",\"NY\"],[\"twc-geoip-city\",\"NEWYORK\"],[\"twc-geoip-dma\",\"501\"],[\"twc-geoip-latlong\",\"40.7500,-73.9967\"],[\"twc-geoip-country\",\"US\"],[\"twc-device-class\",\"desktop\"],[\"twc-locale-group\",\"US\"],[\"twc-connection-speed\",\"4G\"],[\"x-origin-hint\",\"WU-Next-Default\"],[\"X-Firefox-Spdy\",\"h2\"]]","location":"","visit_id":null}
+2022-08-25 12:54:43,585 - MainProcess[MainThread]- sql_provider         - ERROR   : Unsupported record:
+<class 'sqlite3.IntegrityError'>
+NOT NULL constraint failed: http_responses.visit_id
+INSERT INTO http_responses (incognito, browser_id, extension_session_uuid, event_ordinal, tab_id, frame_id, request_id, is_cached, url, method, response_status, response_status_text, time_stamp, headers, location) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+[0, 3776262813, '76b55e48-a27b-4198-bc9b-a4a3b6b52665', 26162, -1, 0, 7208, 0, 'https://www.wunderground.com/0-es2015.637830ea30a9ac3b28d1.js', 'GET', 404, 'HTTP/2.0 404 Not Found', '2022-08-25T12:54:43.583Z', '[["content-type","text/html; charset=utf-8"],["server-timing","intid;desc=f982e5be5d4c572c"],["access-control-allow-origin","*"],["x-frame-options","sameorigin"],["wxu-next-commit",""],["wxu-next-region",""],["wxu-next-hostname","wu-next-7b4bbdb7b8-tvrvm"],["webcakes-app-name","wxu-next"],["webcakes-app-version",""],["webcakes-region",""],["etag","W/\\"10591-EEcPw8/tvkeLBfnSLn+DGQoI90c\\""],["vary","Accept-Encoding"],["content-encoding","gzip"],["strict-transport-security","max-age=15724800; includeSubDomains"],["content-length","14846"],["cache-control","max-age=297"],["expires","Thu, 25 Aug 2022 12:59:40 GMT"],["date","Thu, 25 Aug 2022 12:54:43 GMT"],["set-cookie","ci=TWC-Connection-Speed=4G&TWC-Locale-Group=US&TWC-Device-Class=desktop&X-Origin-Hint=WU-Next-Default&TWC-Network-Type=wifi&TWC-GeoIP-Country=US&TWC-GeoIP-Lat=40.7500&TWC-GeoIP-Long=-73.9967&Akamai-Connection-Speed=1000+&TWC-Privacy=usa&TWC-GeoIP-DMA=501&TWC-GeoIP-City=NEWYORK&TWC-GeoIP-Region=NY; path=/; domain=.wunderground.com; secure"],["property-id","TWC-WU-Prod"],["x-theme-asset","1"],["twc-privacy","usa"],["twc-geoip-region","NY"],["twc-geoip-city","NEWYORK"],["twc-geoip-dma","501"],["twc-geoip-latlong","40.7500,-73.9967"],["twc-geoip-country","US"],["twc-device-class","desktop"],["twc-locale-group","US"],["twc-connection-speed","4G"],["x-origin-hint","WU-Next-Default"],["X-Firefox-Spdy","h2"]]', '']
+
+2022-08-25 12:54:44,008 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:54:44,423 - MainProcess[OpenWPM-completion_handler]- task_manager         - DEBUG   : Invoking callback of visit_id 1064146140010809
+2022-08-25 12:54:44,542 - MainProcess[MainThread]- task_manager         - DEBUG   : Checking command failure status indicator...
+2022-08-25 12:54:44,543 - MainProcess[Thread-27 (execute_command_sequence)]- browser_manager      - INFO    : Starting to work on CommandSequence with visit_id 7685760969266350 on browser with id 3776262813
+2022-08-25 12:54:44,545 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: InitializeCommand()
+2022-08-25 12:54:44,546 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: GetCommand(https://slickdeals.net/,10)
+2022-08-25 12:54:44,552 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : Setting visit_id the legacy way
+2022-08-25 12:54:49,010 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:54:54,012 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:54:59,013 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:55:04,016 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:55:09,018 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:55:11,460 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: ScreenshotFullPageCommand(_19)
+2022-08-25 12:55:14,019 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:55:17,720 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: FinalizeCommand(5)
+2022-08-25 12:55:19,021 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:55:22,933 - MainProcess[Thread-27 (execute_command_sequence)]- browser_manager      - INFO    : Finished working on CommandSequence with visit_id 7685760969266350 on browser with id 3776262813
+2022-08-25 12:55:22,934 - MainProcess[MainThread]- storage_controller   - INFO    : Awaiting all tasks for visit_id 7685760969266350
+2022-08-25 12:55:22,935 - MainProcess[MainThread]- storage_controller   - DEBUG   : Awaited all tasks for visit_id 7685760969266350 while finalizing
+2022-08-25 12:55:24,027 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:55:24,462 - MainProcess[OpenWPM-completion_handler]- task_manager         - DEBUG   : Invoking callback of visit_id 7685760969266350
+2022-08-25 12:55:25,004 - MainProcess[MainThread]- task_manager         - DEBUG   : Checking command failure status indicator...
+2022-08-25 12:55:25,005 - MainProcess[Thread-28 (execute_command_sequence)]- browser_manager      - INFO    : Starting to work on CommandSequence with visit_id 7148367585162106 on browser with id 3776262813
+2022-08-25 12:55:25,007 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: InitializeCommand()
+2022-08-25 12:55:25,009 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: GetCommand(https://www.cheatsheet.com/,10)
+2022-08-25 12:55:25,017 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : Setting visit_id the legacy way
+2022-08-25 12:55:29,028 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:55:34,029 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:55:39,030 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:55:44,032 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:55:49,034 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:55:54,035 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:55:59,037 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:56:00,945 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: ScreenshotFullPageCommand(_20)
+2022-08-25 12:56:02,210 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: FinalizeCommand(5)
+2022-08-25 12:56:04,038 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:56:07,281 - MainProcess[Thread-28 (execute_command_sequence)]- browser_manager      - INFO    : Finished working on CommandSequence with visit_id 7148367585162106 on browser with id 3776262813
+2022-08-25 12:56:07,282 - MainProcess[MainThread]- storage_controller   - INFO    : Awaiting all tasks for visit_id 7148367585162106
+2022-08-25 12:56:07,283 - MainProcess[MainThread]- storage_controller   - DEBUG   : Awaited all tasks for visit_id 7148367585162106 while finalizing
+2022-08-25 12:56:09,042 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:56:09,371 - MainProcess[MainThread]- task_manager         - DEBUG   : Checking command failure status indicator...
+2022-08-25 12:56:09,372 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : Starting to work on CommandSequence with visit_id 1768369077456994 on browser with id 3776262813
+2022-08-25 12:56:09,374 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: InitializeCommand()
+2022-08-25 12:56:09,376 - MainProcess[MainThread]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: GetCommand(https://247sports.com/,10)
+2022-08-25 12:56:09,381 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : Setting visit_id the legacy way
+2022-08-25 12:56:09,507 - MainProcess[OpenWPM-completion_handler]- task_manager         - DEBUG   : Invoking callback of visit_id 7148367585162106
+2022-08-25 12:56:14,045 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:56:19,048 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:56:24,053 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:56:29,055 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:56:34,059 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:56:39,065 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:56:39,390 - MainProcess[MainThread]- storage_controller   - DEBUG   : Saving current records since no new data has been written for 30 seconds.
+2022-08-25 12:56:44,070 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:56:44,515 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: Received neterror netTimeout while executing command: GetCommand(https://247sports.com/,10)
+2022-08-25 12:56:44,516 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - DEBUG   : BROWSER 3776262813: Browser restart required
+2022-08-25 12:56:44,517 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : Finished working on CommandSequence with visit_id 1768369077456994 on browser with id 3776262813
+2022-08-25 12:56:44,517 - MainProcess[MainThread]- storage_controller   - INFO    : Awaiting all tasks for visit_id 1768369077456994
+2022-08-25 12:56:44,517 - MainProcess[MainThread]- storage_controller   - DEBUG   : Awaited all tasks for visit_id 1768369077456994 while finalizing
+2022-08-25 12:56:44,518 - MainProcess[MainThread]- sql_provider         - WARNING : Visit with visit_id 1768369077456994 got interrupted
+2022-08-25 12:56:46,519 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: BrowserManager restart initiated. Clear profile? False
+2022-08-25 12:56:46,520 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - DEBUG   : BROWSER 3776262813: Closing browser...
+2022-08-25 12:56:46,631 - MainProcess[MainThread]- storage_controller   - INFO    : Terminating handler, because the underlying socket closed
+2022-08-25 12:56:47,034 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - DEBUG   : BROWSER 3776262813: Browser manager closed successfully.
+2022-08-25 12:56:47,035 - MainProcess[Thread-29 (execute_command_sequence)]- profile_commands     - DEBUG   : BROWSER 3776262813: Backing up full profile from /tmp/firefox_profile_uhxk08d8 to /tmp/openwpm_profile_archive_pcv2pb0p/profile.tar
+2022-08-25 12:56:49,074 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:56:49,549 - MainProcess[OpenWPM-completion_handler]- task_manager         - DEBUG   : Invoking callback of visit_id 1768369077456994
+2022-08-25 12:56:53,629 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: Launching browser...
+2022-08-25 12:56:53,629 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - DEBUG   : BROWSER 3776262813: Spawn attempt 0 
+2022-08-25 12:56:53,635 - MainProcess[Thread-29 (execute_command_sequence)]- deploy_firefox       - DEBUG   : BROWSER 3776262813: Loading recovered browser profile from: /tmp/openwpm_profile_archive_pcv2pb0p/profile.tar
+2022-08-25 12:56:54,077 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:56:59,083 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:57:00,524 - MainProcess[Thread-29 (execute_command_sequence)]- profile_commands     - DEBUG   : BROWSER 3776262813: Tarfile extracted
+2022-08-25 12:57:00,533 - MainProcess[Thread-29 (execute_command_sequence)]- deploy_firefox       - DEBUG   : BROWSER 3776262813: Saved extension config file to: /tmp/firefox_profile_d79x5u4x/browser_params.json
+2022-08-25 12:57:01,928 - MainProcess[Thread-29 (execute_command_sequence)]- deploy_firefox       - DEBUG   : BROWSER 3776262813: OpenWPM Firefox extension loaded
+2022-08-25 12:57:01,930 - MainProcess[MainThread]- storage_controller   - DEBUG   : Initializing new handler
+2022-08-25 12:57:01,931 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - DEBUG   : BROWSER 3776262813: Looking for extension port information in /tmp/firefox_profile_d79x5u4x
+2022-08-25 12:57:01,931 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : Navigation instrumentation enabled
+2022-08-25 12:57:01,932 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - DEBUG   : BROWSER 3776262813: Connecting to extension on port 33827
+2022-08-25 12:57:01,932 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : Cookie instrumentation enabled
+2022-08-25 12:57:01,933 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : HTTP Instrumentation enabled
+2022-08-25 12:57:02,032 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - DEBUG   : BROWSER 3776262813: BrowserManager ready.
+2022-08-25 12:57:02,033 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - DEBUG   : BROWSER 3776262813: Browser spawn successful!
+2022-08-25 12:57:03,352 - MainProcess[MainThread]- task_manager         - DEBUG   : Checking command failure status indicator...
+2022-08-25 12:57:03,353 - MainProcess[Thread-31 (execute_command_sequence)]- browser_manager      - INFO    : Starting to work on CommandSequence with visit_id 5547622385311732 on browser with id 3776262813
+2022-08-25 12:57:03,356 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: InitializeCommand()
+2022-08-25 12:57:03,357 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: GetCommand(https://www.tmz.com/,10)
+2022-08-25 12:57:03,365 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : Setting visit_id the legacy way
+2022-08-25 12:57:04,084 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:57:09,085 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:57:14,087 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:57:19,089 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:57:24,092 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:57:29,095 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:57:34,097 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:57:39,104 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:57:44,106 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:57:49,109 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:57:54,112 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:57:59,113 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:58:04,114 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:58:09,117 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:58:14,120 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:58:19,125 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:58:24,129 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:58:29,132 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:58:34,138 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:58:39,140 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:58:44,142 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:58:49,143 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:58:54,024 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: ScreenshotFullPageCommand(_22)
+2022-08-25 12:58:54,145 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:58:59,146 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:59:04,147 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:59:08,539 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: FinalizeCommand(5)
+2022-08-25 12:59:09,149 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:59:13,807 - MainProcess[Thread-31 (execute_command_sequence)]- browser_manager      - INFO    : Finished working on CommandSequence with visit_id 5547622385311732 on browser with id 3776262813
+2022-08-25 12:59:13,809 - MainProcess[MainThread]- storage_controller   - INFO    : Awaiting all tasks for visit_id 5547622385311732
+2022-08-25 12:59:13,810 - MainProcess[MainThread]- storage_controller   - DEBUG   : Awaited all tasks for visit_id 5547622385311732 while finalizing
+2022-08-25 12:59:14,156 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 12:59:14,692 - MainProcess[OpenWPM-completion_handler]- task_manager         - DEBUG   : Invoking callback of visit_id 5547622385311732
+2022-08-25 12:59:15,850 - MainProcess[MainThread]- task_manager         - DEBUG   : Checking command failure status indicator...
+2022-08-25 12:59:15,850 - MainProcess[Thread-32 (execute_command_sequence)]- browser_manager      - INFO    : Starting to work on CommandSequence with visit_id 1722072467829257 on browser with id 3776262813
+2022-08-25 12:59:15,853 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: InitializeCommand()
+2022-08-25 12:59:15,855 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: GetCommand(https://www.ign.com/,10)
+2022-08-25 12:59:15,864 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : Setting visit_id the legacy way
+2022-08-25 12:59:19,158 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:59:24,160 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:59:29,161 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:59:34,165 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:59:39,167 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:59:44,169 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:59:49,170 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:59:54,172 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 12:59:59,173 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:00:04,175 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:00:07,778 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: ScreenshotFullPageCommand(_23)
+2022-08-25 13:00:09,177 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:00:09,712 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: FinalizeCommand(5)
+2022-08-25 13:00:14,180 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:00:14,801 - MainProcess[Thread-32 (execute_command_sequence)]- browser_manager      - INFO    : Finished working on CommandSequence with visit_id 1722072467829257 on browser with id 3776262813
+2022-08-25 13:00:14,802 - MainProcess[MainThread]- storage_controller   - INFO    : Awaiting all tasks for visit_id 1722072467829257
+2022-08-25 13:00:14,802 - MainProcess[MainThread]- storage_controller   - DEBUG   : Awaited all tasks for visit_id 1722072467829257 while finalizing
+2022-08-25 13:00:16,840 - MainProcess[MainThread]- task_manager         - DEBUG   : Checking command failure status indicator...
+2022-08-25 13:00:16,841 - MainProcess[Thread-33 (execute_command_sequence)]- browser_manager      - INFO    : Starting to work on CommandSequence with visit_id 4312647785517482 on browser with id 3776262813
+2022-08-25 13:00:16,843 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: InitializeCommand()
+2022-08-25 13:00:16,845 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: GetCommand(https://www.gamespot.com/,10)
+2022-08-25 13:00:16,854 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : Setting visit_id the legacy way
+2022-08-25 13:00:19,184 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:00:19,756 - MainProcess[OpenWPM-completion_handler]- task_manager         - DEBUG   : Invoking callback of visit_id 1722072467829257
+2022-08-25 13:00:24,186 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:00:29,188 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:00:34,189 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:00:36,243 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: ScreenshotFullPageCommand(_24)
+2022-08-25 13:00:37,440 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: FinalizeCommand(5)
+2022-08-25 13:00:39,192 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:00:42,570 - MainProcess[Thread-33 (execute_command_sequence)]- browser_manager      - INFO    : Finished working on CommandSequence with visit_id 4312647785517482 on browser with id 3776262813
+2022-08-25 13:00:42,571 - MainProcess[MainThread]- storage_controller   - INFO    : Awaiting all tasks for visit_id 4312647785517482
+2022-08-25 13:00:42,571 - MainProcess[MainThread]- storage_controller   - DEBUG   : Awaited all tasks for visit_id 4312647785517482 while finalizing
+2022-08-25 13:00:44,197 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 13:00:44,583 - MainProcess[MainThread]- task_manager         - DEBUG   : Checking command failure status indicator...
+2022-08-25 13:00:44,584 - MainProcess[Thread-34 (execute_command_sequence)]- browser_manager      - INFO    : Starting to work on CommandSequence with visit_id 552545419390414 on browser with id 3776262813
+2022-08-25 13:00:44,586 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: InitializeCommand()
+2022-08-25 13:00:44,588 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: GetCommand(https://www.cnet.com/,10)
+2022-08-25 13:00:44,593 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : Setting visit_id the legacy way
+2022-08-25 13:00:44,782 - MainProcess[OpenWPM-completion_handler]- task_manager         - DEBUG   : Invoking callback of visit_id 4312647785517482
+2022-08-25 13:00:49,198 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:00:54,200 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:00:59,201 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:01:03,171 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: ScreenshotFullPageCommand(_25)
+2022-08-25 13:01:04,203 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:01:06,123 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: FinalizeCommand(5)
+2022-08-25 13:01:09,204 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:01:11,289 - MainProcess[Thread-34 (execute_command_sequence)]- browser_manager      - INFO    : Finished working on CommandSequence with visit_id 552545419390414 on browser with id 3776262813
+2022-08-25 13:01:11,290 - MainProcess[MainThread]- storage_controller   - INFO    : Awaiting all tasks for visit_id 552545419390414
+2022-08-25 13:01:11,290 - MainProcess[MainThread]- storage_controller   - DEBUG   : Awaited all tasks for visit_id 552545419390414 while finalizing
+2022-08-25 13:01:13,329 - MainProcess[MainThread]- task_manager         - DEBUG   : Checking command failure status indicator...
+2022-08-25 13:01:13,330 - MainProcess[Thread-35 (execute_command_sequence)]- browser_manager      - INFO    : Starting to work on CommandSequence with visit_id 1642764432884323 on browser with id 3776262813
+2022-08-25 13:01:13,332 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: InitializeCommand()
+2022-08-25 13:01:13,333 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: GetCommand(https://genius.com/,10)
+2022-08-25 13:01:13,343 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : Setting visit_id the legacy way
+2022-08-25 13:01:14,209 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:01:14,813 - MainProcess[OpenWPM-completion_handler]- task_manager         - DEBUG   : Invoking callback of visit_id 552545419390414
+2022-08-25 13:01:19,210 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:01:24,212 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:01:29,213 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:01:34,215 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:01:39,216 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:01:44,218 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:01:49,219 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:01:54,222 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:01:59,223 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:02:04,225 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:02:09,228 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:02:14,230 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:02:19,232 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:02:24,233 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:02:29,235 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:02:34,237 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:02:39,244 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:02:44,249 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:02:49,251 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:02:54,255 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:02:59,257 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:03:01,766 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: ScreenshotFullPageCommand(_26)
+2022-08-25 13:03:02,822 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: FinalizeCommand(5)
+2022-08-25 13:03:04,259 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:03:07,902 - MainProcess[Thread-35 (execute_command_sequence)]- browser_manager      - INFO    : Finished working on CommandSequence with visit_id 1642764432884323 on browser with id 3776262813
+2022-08-25 13:03:07,903 - MainProcess[MainThread]- storage_controller   - INFO    : Awaiting all tasks for visit_id 1642764432884323
+2022-08-25 13:03:07,904 - MainProcess[MainThread]- storage_controller   - DEBUG   : Awaited all tasks for visit_id 1642764432884323 while finalizing
+2022-08-25 13:03:09,263 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 13:03:09,929 - MainProcess[OpenWPM-completion_handler]- task_manager         - DEBUG   : Invoking callback of visit_id 1642764432884323
+2022-08-25 13:03:10,002 - MainProcess[MainThread]- task_manager         - DEBUG   : Checking command failure status indicator...
+2022-08-25 13:03:10,003 - MainProcess[Thread-36 (execute_command_sequence)]- browser_manager      - INFO    : Starting to work on CommandSequence with visit_id 4147058085603422 on browser with id 3776262813
+2022-08-25 13:03:10,005 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: InitializeCommand()
+2022-08-25 13:03:10,007 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: GetCommand(https://www.worldometers.info/,10)
+2022-08-25 13:03:10,012 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : Setting visit_id the legacy way
+2022-08-25 13:03:14,264 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 1 scheduled tasks for 2 visit_ids
+2022-08-25 13:03:19,266 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:03:24,271 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:03:29,272 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:03:34,273 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:03:39,278 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:03:39,417 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: ScreenshotFullPageCommand(_27)
+2022-08-25 13:03:40,350 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: FinalizeCommand(5)
+2022-08-25 13:03:44,283 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:03:45,484 - MainProcess[Thread-36 (execute_command_sequence)]- browser_manager      - INFO    : Finished working on CommandSequence with visit_id 4147058085603422 on browser with id 3776262813
+2022-08-25 13:03:45,485 - MainProcess[MainThread]- storage_controller   - INFO    : Awaiting all tasks for visit_id 4147058085603422
+2022-08-25 13:03:45,485 - MainProcess[MainThread]- storage_controller   - DEBUG   : Awaited all tasks for visit_id 4147058085603422 while finalizing
+2022-08-25 13:03:47,560 - MainProcess[MainThread]- task_manager         - DEBUG   : Checking command failure status indicator...
+2022-08-25 13:03:47,560 - MainProcess[Thread-37 (execute_command_sequence)]- browser_manager      - INFO    : Starting to work on CommandSequence with visit_id 8982571147086754 on browser with id 3776262813
+2022-08-25 13:03:47,562 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: InitializeCommand()
+2022-08-25 13:03:47,563 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: GetCommand(https://www.foodnetwork.com/,10)
+2022-08-25 13:03:47,570 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : Setting visit_id the legacy way
+2022-08-25 13:03:49,287 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:03:49,970 - MainProcess[OpenWPM-completion_handler]- task_manager         - DEBUG   : Invoking callback of visit_id 4147058085603422
+2022-08-25 13:03:54,289 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:03:59,290 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:04:04,293 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:04:09,298 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:04:14,300 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:04:16,490 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: ScreenshotFullPageCommand(_28)
+2022-08-25 13:04:18,372 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: FinalizeCommand(5)
+2022-08-25 13:04:19,301 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:04:23,455 - MainProcess[Thread-37 (execute_command_sequence)]- browser_manager      - INFO    : Finished working on CommandSequence with visit_id 8982571147086754 on browser with id 3776262813
+2022-08-25 13:04:23,456 - MainProcess[MainThread]- storage_controller   - INFO    : Awaiting all tasks for visit_id 8982571147086754
+2022-08-25 13:04:23,456 - MainProcess[MainThread]- storage_controller   - DEBUG   : Awaited all tasks for visit_id 8982571147086754 while finalizing
+2022-08-25 13:04:24,305 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 13:04:25,002 - MainProcess[OpenWPM-completion_handler]- task_manager         - DEBUG   : Invoking callback of visit_id 8982571147086754
+2022-08-25 13:04:25,516 - MainProcess[MainThread]- task_manager         - DEBUG   : Checking command failure status indicator...
+2022-08-25 13:04:25,517 - MainProcess[Thread-38 (execute_command_sequence)]- browser_manager      - INFO    : Starting to work on CommandSequence with visit_id 4298680010779273 on browser with id 3776262813
+2022-08-25 13:04:25,519 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: InitializeCommand()
+2022-08-25 13:04:25,521 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: GetCommand(https://www.rottentomatoes.com/,10)
+2022-08-25 13:04:25,529 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : Setting visit_id the legacy way
+2022-08-25 13:04:29,306 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:04:34,308 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:04:39,313 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:04:44,316 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:04:49,318 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:04:54,321 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:04:57,624 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: ScreenshotFullPageCommand(_29)
+2022-08-25 13:04:59,165 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: FinalizeCommand(5)
+2022-08-25 13:04:59,323 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:05:04,255 - MainProcess[Thread-38 (execute_command_sequence)]- browser_manager      - INFO    : Finished working on CommandSequence with visit_id 4298680010779273 on browser with id 3776262813
+2022-08-25 13:05:04,257 - MainProcess[MainThread]- storage_controller   - INFO    : Awaiting all tasks for visit_id 4298680010779273
+2022-08-25 13:05:04,257 - MainProcess[MainThread]- storage_controller   - DEBUG   : Awaited all tasks for visit_id 4298680010779273 while finalizing
+2022-08-25 13:05:04,326 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 13:05:05,044 - MainProcess[OpenWPM-completion_handler]- task_manager         - DEBUG   : Invoking callback of visit_id 4298680010779273
+2022-08-25 13:05:06,277 - MainProcess[MainThread]- task_manager         - DEBUG   : Checking command failure status indicator...
+2022-08-25 13:05:06,278 - MainProcess[Thread-39 (execute_command_sequence)]- browser_manager      - INFO    : Starting to work on CommandSequence with visit_id 3717897767502739 on browser with id 3776262813
+2022-08-25 13:05:06,280 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: InitializeCommand()
+2022-08-25 13:05:06,281 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: GetCommand(https://www.merriam-webster.com/,10)
+2022-08-25 13:05:06,287 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : Setting visit_id the legacy way
+2022-08-25 13:05:09,326 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:05:14,328 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:05:19,330 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:05:24,332 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:05:29,334 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:05:34,334 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:05:39,336 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:05:40,378 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: ScreenshotFullPageCommand(_30)
+2022-08-25 13:05:41,832 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: FinalizeCommand(5)
+2022-08-25 13:05:44,337 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:05:46,953 - MainProcess[Thread-39 (execute_command_sequence)]- browser_manager      - INFO    : Finished working on CommandSequence with visit_id 3717897767502739 on browser with id 3776262813
+2022-08-25 13:05:46,954 - MainProcess[MainThread]- storage_controller   - INFO    : Awaiting all tasks for visit_id 3717897767502739
+2022-08-25 13:05:46,955 - MainProcess[MainThread]- storage_controller   - DEBUG   : Awaited all tasks for visit_id 3717897767502739 while finalizing
+2022-08-25 13:05:49,040 - MainProcess[MainThread]- task_manager         - DEBUG   : Checking command failure status indicator...
+2022-08-25 13:05:49,041 - MainProcess[Thread-40 (execute_command_sequence)]- browser_manager      - INFO    : Starting to work on CommandSequence with visit_id 2683425968486086 on browser with id 3776262813
+2022-08-25 13:05:49,043 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: InitializeCommand()
+2022-08-25 13:05:49,044 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: GetCommand(https://www.thesaurus.com/,10)
+2022-08-25 13:05:49,051 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : Setting visit_id the legacy way
+2022-08-25 13:05:49,341 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:05:50,090 - MainProcess[OpenWPM-completion_handler]- task_manager         - DEBUG   : Invoking callback of visit_id 3717897767502739
+2022-08-25 13:05:54,343 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:05:59,345 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:06:04,348 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:06:08,534 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: ScreenshotFullPageCommand(_31)
+2022-08-25 13:06:08,978 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: FinalizeCommand(5)
+2022-08-25 13:06:09,349 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:06:14,069 - MainProcess[Thread-40 (execute_command_sequence)]- browser_manager      - INFO    : Finished working on CommandSequence with visit_id 2683425968486086 on browser with id 3776262813
+2022-08-25 13:06:14,070 - MainProcess[MainThread]- storage_controller   - INFO    : Awaiting all tasks for visit_id 2683425968486086
+2022-08-25 13:06:14,070 - MainProcess[MainThread]- storage_controller   - DEBUG   : Awaited all tasks for visit_id 2683425968486086 while finalizing
+2022-08-25 13:06:14,353 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 13:06:15,115 - MainProcess[OpenWPM-completion_handler]- task_manager         - DEBUG   : Invoking callback of visit_id 2683425968486086
+2022-08-25 13:06:16,081 - MainProcess[MainThread]- task_manager         - DEBUG   : Checking command failure status indicator...
+2022-08-25 13:06:16,082 - MainProcess[Thread-41 (execute_command_sequence)]- browser_manager      - INFO    : Starting to work on CommandSequence with visit_id 1065958051199402 on browser with id 3776262813
+2022-08-25 13:06:16,084 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: InitializeCommand()
+2022-08-25 13:06:16,085 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: GetCommand(https://www.theverge.com/,10)
+2022-08-25 13:06:16,092 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : Setting visit_id the legacy way
+2022-08-25 13:06:19,354 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:06:24,355 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:06:29,357 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:06:34,358 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:06:38,333 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: ScreenshotFullPageCommand(_32)
+2022-08-25 13:06:39,360 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:06:40,391 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: FinalizeCommand(5)
+2022-08-25 13:06:44,362 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:06:45,635 - MainProcess[Thread-41 (execute_command_sequence)]- browser_manager      - INFO    : Finished working on CommandSequence with visit_id 1065958051199402 on browser with id 3776262813
+2022-08-25 13:06:45,636 - MainProcess[MainThread]- storage_controller   - INFO    : Awaiting all tasks for visit_id 1065958051199402
+2022-08-25 13:06:45,636 - MainProcess[MainThread]- storage_controller   - DEBUG   : Awaited all tasks for visit_id 1065958051199402 while finalizing
+2022-08-25 13:06:47,728 - MainProcess[MainThread]- task_manager         - DEBUG   : Checking command failure status indicator...
+2022-08-25 13:06:47,729 - MainProcess[Thread-42 (execute_command_sequence)]- browser_manager      - INFO    : Starting to work on CommandSequence with visit_id 628683394894685 on browser with id 3776262813
+2022-08-25 13:06:47,731 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: InitializeCommand()
+2022-08-25 13:06:47,732 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: GetCommand(https://pagesix.com/,10)
+2022-08-25 13:06:47,739 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : Setting visit_id the legacy way
+2022-08-25 13:06:49,365 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:06:50,148 - MainProcess[OpenWPM-completion_handler]- task_manager         - DEBUG   : Invoking callback of visit_id 1065958051199402
+2022-08-25 13:06:54,367 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:06:59,369 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:07:04,370 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:07:09,372 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:07:12,164 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: ScreenshotFullPageCommand(_33)
+2022-08-25 13:07:13,471 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: FinalizeCommand(5)
+2022-08-25 13:07:14,373 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:07:18,591 - MainProcess[Thread-42 (execute_command_sequence)]- browser_manager      - INFO    : Finished working on CommandSequence with visit_id 628683394894685 on browser with id 3776262813
+2022-08-25 13:07:18,591 - MainProcess[MainThread]- storage_controller   - INFO    : Awaiting all tasks for visit_id 628683394894685
+2022-08-25 13:07:18,592 - MainProcess[MainThread]- storage_controller   - DEBUG   : Awaited all tasks for visit_id 628683394894685 while finalizing
+2022-08-25 13:07:19,377 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 13:07:20,179 - MainProcess[OpenWPM-completion_handler]- task_manager         - DEBUG   : Invoking callback of visit_id 628683394894685
+2022-08-25 13:07:20,679 - MainProcess[MainThread]- task_manager         - DEBUG   : Checking command failure status indicator...
+2022-08-25 13:07:20,680 - MainProcess[Thread-43 (execute_command_sequence)]- browser_manager      - INFO    : Starting to work on CommandSequence with visit_id 1453993098134137 on browser with id 3776262813
+2022-08-25 13:07:20,682 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: InitializeCommand()
+2022-08-25 13:07:20,683 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: GetCommand(https://www.delish.com/,10)
+2022-08-25 13:07:20,688 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : Setting visit_id the legacy way
+2022-08-25 13:07:24,379 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:07:29,380 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:07:34,382 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:07:39,383 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:07:41,157 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: ScreenshotFullPageCommand(_34)
+2022-08-25 13:07:41,720 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: FinalizeCommand(5)
+2022-08-25 13:07:44,384 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:07:46,841 - MainProcess[Thread-43 (execute_command_sequence)]- browser_manager      - INFO    : Finished working on CommandSequence with visit_id 1453993098134137 on browser with id 3776262813
+2022-08-25 13:07:46,842 - MainProcess[MainThread]- storage_controller   - INFO    : Awaiting all tasks for visit_id 1453993098134137
+2022-08-25 13:07:46,843 - MainProcess[MainThread]- storage_controller   - DEBUG   : Awaited all tasks for visit_id 1453993098134137 while finalizing
+2022-08-25 13:07:48,921 - MainProcess[MainThread]- task_manager         - DEBUG   : Checking command failure status indicator...
+2022-08-25 13:07:48,922 - MainProcess[Thread-44 (execute_command_sequence)]- browser_manager      - INFO    : Starting to work on CommandSequence with visit_id 2299500491318870 on browser with id 3776262813
+2022-08-25 13:07:48,924 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: InitializeCommand()
+2022-08-25 13:07:48,925 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: GetCommand(https://www.timeanddate.com/,10)
+2022-08-25 13:07:48,931 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : Setting visit_id the legacy way
+2022-08-25 13:07:49,387 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:07:50,210 - MainProcess[OpenWPM-completion_handler]- task_manager         - DEBUG   : Invoking callback of visit_id 1453993098134137
+2022-08-25 13:07:54,388 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:07:59,390 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:08:04,392 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:08:09,394 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:08:14,395 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:08:19,397 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:08:24,399 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:08:29,400 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:08:34,401 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:08:39,406 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:08:44,407 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:08:49,413 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:08:54,414 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:08:59,419 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:09:04,422 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:09:09,425 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:09:14,429 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:09:19,436 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:09:24,438 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:09:29,443 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:09:34,445 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:09:38,947 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: ScreenshotFullPageCommand(_35)
+2022-08-25 13:09:39,047 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: FinalizeCommand(5)
+2022-08-25 13:09:39,446 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:09:44,122 - MainProcess[Thread-44 (execute_command_sequence)]- browser_manager      - INFO    : Finished working on CommandSequence with visit_id 2299500491318870 on browser with id 3776262813
+2022-08-25 13:09:44,122 - MainProcess[MainThread]- storage_controller   - INFO    : Awaiting all tasks for visit_id 2299500491318870
+2022-08-25 13:09:44,123 - MainProcess[MainThread]- storage_controller   - DEBUG   : Awaited all tasks for visit_id 2299500491318870 while finalizing
+2022-08-25 13:09:44,448 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 13:09:45,327 - MainProcess[OpenWPM-completion_handler]- task_manager         - DEBUG   : Invoking callback of visit_id 2299500491318870
+2022-08-25 13:09:46,190 - MainProcess[MainThread]- task_manager         - DEBUG   : Checking command failure status indicator...
+2022-08-25 13:09:46,191 - MainProcess[Thread-45 (execute_command_sequence)]- browser_manager      - INFO    : Starting to work on CommandSequence with visit_id 283131688007233 on browser with id 3776262813
+2022-08-25 13:09:46,193 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: InitializeCommand()
+2022-08-25 13:09:46,195 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: GetCommand(https://www.dictionary.com/,10)
+2022-08-25 13:09:46,200 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : Setting visit_id the legacy way
+2022-08-25 13:09:49,450 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:09:54,451 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:09:59,452 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:10:04,454 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:10:06,932 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: ScreenshotFullPageCommand(_36)
+2022-08-25 13:10:07,446 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: FinalizeCommand(5)
+2022-08-25 13:10:09,455 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:10:12,530 - MainProcess[Thread-45 (execute_command_sequence)]- browser_manager      - INFO    : Finished working on CommandSequence with visit_id 283131688007233 on browser with id 3776262813
+2022-08-25 13:10:12,531 - MainProcess[MainThread]- storage_controller   - INFO    : Awaiting all tasks for visit_id 283131688007233
+2022-08-25 13:10:12,532 - MainProcess[MainThread]- storage_controller   - DEBUG   : Awaited all tasks for visit_id 283131688007233 while finalizing
+2022-08-25 13:10:14,458 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 13:10:14,534 - MainProcess[MainThread]- task_manager         - DEBUG   : Checking command failure status indicator...
+2022-08-25 13:10:14,535 - MainProcess[Thread-46 (execute_command_sequence)]- browser_manager      - INFO    : Starting to work on CommandSequence with visit_id 8264720998622528 on browser with id 3776262813
+2022-08-25 13:10:14,537 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: InitializeCommand()
+2022-08-25 13:10:14,539 - MainProcess[Thread-29 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: GetCommand(https://www.today.com/,10)
+2022-08-25 13:10:14,545 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : Setting visit_id the legacy way
+2022-08-25 13:10:15,358 - MainProcess[OpenWPM-completion_handler]- task_manager         - DEBUG   : Invoking callback of visit_id 283131688007233
+2022-08-25 13:10:19,461 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:10:24,467 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:10:29,473 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:10:34,477 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:10:39,483 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:10:44,055 - MainProcess[Thread-46 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: Received neterror nssFailure2 while executing command: GetCommand(https://www.today.com/,10)
+2022-08-25 13:10:44,055 - MainProcess[Thread-46 (execute_command_sequence)]- browser_manager      - DEBUG   : BROWSER 3776262813: Browser restart required
+2022-08-25 13:10:44,056 - MainProcess[Thread-46 (execute_command_sequence)]- browser_manager      - INFO    : Finished working on CommandSequence with visit_id 8264720998622528 on browser with id 3776262813
+2022-08-25 13:10:44,056 - MainProcess[MainThread]- storage_controller   - INFO    : Awaiting all tasks for visit_id 8264720998622528
+2022-08-25 13:10:44,057 - MainProcess[MainThread]- storage_controller   - DEBUG   : Awaited all tasks for visit_id 8264720998622528 while finalizing
+2022-08-25 13:10:44,057 - MainProcess[MainThread]- sql_provider         - WARNING : Visit with visit_id 8264720998622528 got interrupted
+2022-08-25 13:10:44,484 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 13:10:45,390 - MainProcess[OpenWPM-completion_handler]- task_manager         - DEBUG   : Invoking callback of visit_id 8264720998622528
+2022-08-25 13:10:46,058 - MainProcess[Thread-46 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: BrowserManager restart initiated. Clear profile? False
+2022-08-25 13:10:46,059 - MainProcess[Thread-46 (execute_command_sequence)]- browser_manager      - DEBUG   : BROWSER 3776262813: Closing browser...
+2022-08-25 13:10:46,133 - MainProcess[MainThread]- storage_controller   - INFO    : Terminating handler, because the underlying socket closed
+2022-08-25 13:10:46,535 - MainProcess[Thread-46 (execute_command_sequence)]- browser_manager      - DEBUG   : BROWSER 3776262813: Browser manager closed successfully.
+2022-08-25 13:10:46,535 - MainProcess[Thread-46 (execute_command_sequence)]- profile_commands     - DEBUG   : BROWSER 3776262813: Backing up full profile from /tmp/firefox_profile_d79x5u4x to /tmp/openwpm_profile_archive_mdop4w6n/profile.tar
+2022-08-25 13:10:49,489 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 13:10:51,971 - MainProcess[Thread-46 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: Launching browser...
+2022-08-25 13:10:51,972 - MainProcess[Thread-46 (execute_command_sequence)]- browser_manager      - DEBUG   : BROWSER 3776262813: Spawn attempt 0 
+2022-08-25 13:10:51,977 - MainProcess[Thread-46 (execute_command_sequence)]- deploy_firefox       - DEBUG   : BROWSER 3776262813: Loading recovered browser profile from: /tmp/openwpm_profile_archive_mdop4w6n/profile.tar
+2022-08-25 13:10:54,496 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 13:10:58,939 - MainProcess[Thread-46 (execute_command_sequence)]- profile_commands     - DEBUG   : BROWSER 3776262813: Tarfile extracted
+2022-08-25 13:10:58,979 - MainProcess[Thread-46 (execute_command_sequence)]- deploy_firefox       - DEBUG   : BROWSER 3776262813: Saved extension config file to: /tmp/firefox_profile_m1kkriph/browser_params.json
+2022-08-25 13:10:59,501 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 13:11:00,248 - MainProcess[Thread-46 (execute_command_sequence)]- deploy_firefox       - DEBUG   : BROWSER 3776262813: OpenWPM Firefox extension loaded
+2022-08-25 13:11:00,251 - MainProcess[Thread-46 (execute_command_sequence)]- browser_manager      - DEBUG   : BROWSER 3776262813: Looking for extension port information in /tmp/firefox_profile_m1kkriph
+2022-08-25 13:11:00,252 - MainProcess[MainThread]- storage_controller   - DEBUG   : Initializing new handler
+2022-08-25 13:11:00,252 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : Navigation instrumentation enabled
+2022-08-25 13:11:00,253 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : Cookie instrumentation enabled
+2022-08-25 13:11:00,255 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : HTTP Instrumentation enabled
+2022-08-25 13:11:00,352 - MainProcess[Thread-46 (execute_command_sequence)]- browser_manager      - DEBUG   : BROWSER 3776262813: Connecting to extension on port 40517
+2022-08-25 13:11:00,352 - MainProcess[Thread-46 (execute_command_sequence)]- browser_manager      - DEBUG   : BROWSER 3776262813: BrowserManager ready.
+2022-08-25 13:11:00,353 - MainProcess[Thread-46 (execute_command_sequence)]- browser_manager      - DEBUG   : BROWSER 3776262813: Browser spawn successful!
+2022-08-25 13:11:03,209 - MainProcess[MainThread]- task_manager         - DEBUG   : Checking command failure status indicator...
+2022-08-25 13:11:03,209 - MainProcess[Thread-48 (execute_command_sequence)]- browser_manager      - INFO    : Starting to work on CommandSequence with visit_id 1783888103738843 on browser with id 3776262813
+2022-08-25 13:11:03,212 - MainProcess[Thread-46 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: InitializeCommand()
+2022-08-25 13:11:03,214 - MainProcess[Thread-46 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: GetCommand(https://www.tomsguide.com/,10)
+2022-08-25 13:11:03,221 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : Setting visit_id the legacy way
+2022-08-25 13:11:04,503 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:11:09,504 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:11:14,506 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:11:19,507 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:11:24,508 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:11:29,510 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:11:34,511 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:11:39,514 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:11:44,516 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:11:49,517 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:11:54,519 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:11:59,522 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:12:04,526 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:12:09,529 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:12:14,533 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:12:19,535 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:12:24,541 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:12:29,547 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:12:34,549 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:12:39,551 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:12:44,553 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:12:49,557 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:12:54,559 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:12:59,561 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:13:04,413 - MainProcess[Thread-46 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: ScreenshotFullPageCommand(_38)
+2022-08-25 13:13:04,562 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:13:05,786 - MainProcess[Thread-46 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: FinalizeCommand(5)
+2022-08-25 13:13:09,564 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:13:10,911 - MainProcess[Thread-48 (execute_command_sequence)]- browser_manager      - INFO    : Finished working on CommandSequence with visit_id 1783888103738843 on browser with id 3776262813
+2022-08-25 13:13:10,912 - MainProcess[MainThread]- storage_controller   - INFO    : Awaiting all tasks for visit_id 1783888103738843
+2022-08-25 13:13:10,912 - MainProcess[MainThread]- storage_controller   - DEBUG   : Awaited all tasks for visit_id 1783888103738843 while finalizing
+2022-08-25 13:13:12,998 - MainProcess[MainThread]- task_manager         - DEBUG   : Checking command failure status indicator...
+2022-08-25 13:13:12,999 - MainProcess[Thread-49 (execute_command_sequence)]- browser_manager      - INFO    : Starting to work on CommandSequence with visit_id 7406696081193572 on browser with id 3776262813
+2022-08-25 13:13:13,000 - MainProcess[Thread-46 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: InitializeCommand()
+2022-08-25 13:13:13,002 - MainProcess[Thread-46 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: GetCommand(http://www.allscrabblewords.com/,10)
+2022-08-25 13:13:13,008 - MainProcess[Thread-1 (_start_listener)]- FirefoxExtension     - DEBUG   : Setting visit_id the legacy way
+2022-08-25 13:13:14,569 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:13:15,540 - MainProcess[OpenWPM-completion_handler]- task_manager         - DEBUG   : Invoking callback of visit_id 1783888103738843
+2022-08-25 13:13:19,570 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:13:24,571 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:13:29,573 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:13:34,576 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:13:34,643 - MainProcess[Thread-46 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: ScreenshotFullPageCommand(_39)
+2022-08-25 13:13:35,019 - MainProcess[Thread-46 (execute_command_sequence)]- browser_manager      - INFO    : BROWSER 3776262813: EXECUTING COMMAND: FinalizeCommand(5)
+2022-08-25 13:13:39,582 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 2 visit_ids
+2022-08-25 13:13:40,090 - MainProcess[Thread-49 (execute_command_sequence)]- browser_manager      - INFO    : Finished working on CommandSequence with visit_id 7406696081193572 on browser with id 3776262813
+2022-08-25 13:13:40,092 - MainProcess[MainThread]- storage_controller   - INFO    : Awaiting all tasks for visit_id 7406696081193572
+2022-08-25 13:13:40,092 - MainProcess[MainThread]- storage_controller   - DEBUG   : Awaited all tasks for visit_id 7406696081193572 while finalizing
+2022-08-25 13:13:42,091 - MainProcess[MainThread]- browser_manager      - DEBUG   : BROWSER 3776262813: Closing browser manager...
+2022-08-25 13:13:42,092 - MainProcess[MainThread]- browser_manager      - DEBUG   : BROWSER 3776262813: Closing browser...
+2022-08-25 13:13:42,092 - MainProcess[MainThread]- browser_manager      - DEBUG   : BROWSER 3776262813: Joining command thread
+2022-08-25 13:13:42,092 - MainProcess[MainThread]- browser_manager      - DEBUG   : BROWSER 3776262813: 0.000007 seconds to join command thread
+2022-08-25 13:13:42,166 - MainProcess[MainThread]- storage_controller   - INFO    : Terminating handler, because the underlying socket closed
+2022-08-25 13:13:42,358 - MainProcess[MainThread]- browser_manager      - DEBUG   : BROWSER 3776262813: Browser manager closed successfully.
+2022-08-25 13:13:42,359 - MainProcess[MainThread]- browser_manager      - DEBUG   : BROWSER 3776262813: during_init=False | profile_archive_dir=/opt/user/profile
+2022-08-25 13:13:42,359 - MainProcess[MainThread]- browser_manager      - DEBUG   : BROWSER 3776262813: Archiving browser profile directory to /opt/user/profile
+2022-08-25 13:13:42,397 - MainProcess[MainThread]- profile_commands     - DEBUG   : BROWSER 3776262813: Backing up full profile from /tmp/firefox_profile_m1kkriph to /opt/user/profile/profile.tar.gz
+2022-08-25 13:13:44,585 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 13:13:45,571 - MainProcess[OpenWPM-completion_handler]- task_manager         - DEBUG   : Invoking callback of visit_id 7406696081193572
+2022-08-25 13:13:49,591 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 13:13:54,597 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 13:13:59,604 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 13:14:04,610 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 13:14:09,616 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 13:14:10,095 - MainProcess[MainThread]- storage_controller   - DEBUG   : Saving current records since no new data has been written for 30 seconds.
+2022-08-25 13:14:14,622 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 13:14:19,625 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 13:14:24,632 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 13:14:29,638 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 13:14:34,641 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 13:14:39,647 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 13:14:44,654 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 13:14:49,657 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 13:14:54,664 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 13:14:59,669 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 13:15:04,675 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 13:15:09,681 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 13:15:14,684 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 13:15:19,689 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageController status: There are currently 0 scheduled tasks for 1 visit_ids
+2022-08-25 13:15:20,755 - MainProcess[MainThread]- storage_controller   - DEBUG   : Sending the shutdown signal to the Storage Controller...
+2022-08-25 13:15:20,755 - MainProcess[MainThread]- storage_controller   - INFO    : Terminating handler, because the underlying socket closed
+2022-08-25 13:15:24,694 - MainProcess[MainThread]- storage_controller   - INFO    : Received shutdown signal!
+2022-08-25 13:15:24,695 - MainProcess[MainThread]- storage_controller   - INFO    : Awaiting all tasks for visit_id -1
+2022-08-25 13:15:24,695 - MainProcess[MainThread]- storage_controller   - DEBUG   : Awaited all tasks for visit_id -1 while finalizing
+2022-08-25 13:15:24,696 - MainProcess[MainThread]- sql_provider         - WARNING : Visit with visit_id -1 got interrupted
+2022-08-25 13:15:24,728 - MainProcess[MainThread]- storage_controller   - DEBUG   : StorageControllerHandle took 3.9722394943237305 seconds to close.

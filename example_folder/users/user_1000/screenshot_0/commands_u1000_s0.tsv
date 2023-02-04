@@ -1,0 +1,82 @@
+0	GET	{'url': 'https://www.youtube.com/', 'sleep': 10}
+1	FULL SCREENSHOT	{'suffix': '_0'}
+2	GET	{'url': 'https://www.yahoo.com/', 'sleep': 10}
+3	FULL SCREENSHOT	{'suffix': '_1'}
+4	GET	{'url': 'https://www.espn.com/', 'sleep': 10}
+5	FULL SCREENSHOT	{'suffix': '_2'}
+6	GET	{'url': 'https://weather.com/', 'sleep': 10}
+7	FULL SCREENSHOT	{'suffix': '_3'}
+8	GET	{'url': 'https://www.accuweather.com/', 'sleep': 10}
+9	FULL SCREENSHOT	{'suffix': '_4'}
+10	GET	{'url': 'https://www.fandom.com/', 'sleep': 10}
+11	FULL SCREENSHOT	{'suffix': '_5'}
+12	GET	{'url': 'https://www.twitch.tv/', 'sleep': 10}
+13	FULL SCREENSHOT	{'suffix': '_6'}
+14	GET	{'url': 'https://definition.org/', 'sleep': 10}
+15	FULL SCREENSHOT	{'suffix': '_7'}
+16	GET	{'url': 'https://www.aol.com/', 'sleep': 10}
+17	FULL SCREENSHOT	{'suffix': '_8'}
+18	GET	{'url': 'https://www.imdb.com/', 'sleep': 10}
+19	FULL SCREENSHOT	{'suffix': '_9'}
+20	GET	{'url': 'https://www.tripadvisor.com/', 'sleep': 10}
+21	FULL SCREENSHOT	{'suffix': '_10'}
+22	GET	{'url': 'https://www.fanfiction.net/', 'sleep': 10}
+23	FULL SCREENSHOT	{'suffix': '_11'}
+24	GET	{'url': 'https://imgur.com/', 'sleep': 10}
+25	FULL SCREENSHOT	{'suffix': '_12'}
+26	GET	{'url': 'https://www.motorbiscuit.com/', 'sleep': 10}
+27	FULL SCREENSHOT	{'suffix': '_13'}
+28	GET	{'url': 'https://people.com/', 'sleep': 10}
+29	FULL SCREENSHOT	{'suffix': '_14'}
+30	GET	{'url': 'https://www.nbcsports.com/', 'sleep': 10}
+31	FULL SCREENSHOT	{'suffix': '_15'}
+32	GET	{'url': 'https://www.businessinsider.com/', 'sleep': 10}
+33	FULL SCREENSHOT	{'suffix': '_16'}
+34	GET	{'url': 'https://allrecipes.com/', 'sleep': 10}
+35	FULL SCREENSHOT	{'suffix': '_17'}
+36	GET	{'url': 'https://www.wunderground.com/', 'sleep': 10}
+37	FULL SCREENSHOT	{'suffix': '_18'}
+38	GET	{'url': 'https://slickdeals.net/', 'sleep': 10}
+39	FULL SCREENSHOT	{'suffix': '_19'}
+40	GET	{'url': 'https://www.cheatsheet.com/', 'sleep': 10}
+41	FULL SCREENSHOT	{'suffix': '_20'}
+42	GET	{'url': 'https://247sports.com/', 'sleep': 10}
+43	FULL SCREENSHOT	{'suffix': '_21'}
+44	GET	{'url': 'https://www.tmz.com/', 'sleep': 10}
+45	FULL SCREENSHOT	{'suffix': '_22'}
+46	GET	{'url': 'https://www.ign.com/', 'sleep': 10}
+47	FULL SCREENSHOT	{'suffix': '_23'}
+48	GET	{'url': 'https://www.gamespot.com/', 'sleep': 10}
+49	FULL SCREENSHOT	{'suffix': '_24'}
+50	GET	{'url': 'https://www.cnet.com/', 'sleep': 10}
+51	FULL SCREENSHOT	{'suffix': '_25'}
+52	GET	{'url': 'https://genius.com/', 'sleep': 10}
+53	FULL SCREENSHOT	{'suffix': '_26'}
+54	GET	{'url': 'https://www.worldometers.info/', 'sleep': 10}
+55	FULL SCREENSHOT	{'suffix': '_27'}
+56	GET	{'url': 'https://www.foodnetwork.com/', 'sleep': 10}
+57	FULL SCREENSHOT	{'suffix': '_28'}
+58	GET	{'url': 'https://www.rottentomatoes.com/', 'sleep': 10}
+59	FULL SCREENSHOT	{'suffix': '_29'}
+60	GET	{'url': 'https://www.merriam-webster.com/', 'sleep': 10}
+61	FULL SCREENSHOT	{'suffix': '_30'}
+62	GET	{'url': 'https://www.thesaurus.com/', 'sleep': 10}
+63	FULL SCREENSHOT	{'suffix': '_31'}
+64	GET	{'url': 'https://www.theverge.com/', 'sleep': 10}
+65	FULL SCREENSHOT	{'suffix': '_32'}
+66	GET	{'url': 'https://pagesix.com/', 'sleep': 10}
+67	FULL SCREENSHOT	{'suffix': '_33'}
+68	GET	{'url': 'https://www.delish.com/', 'sleep': 10}
+69	FULL SCREENSHOT	{'suffix': '_34'}
+70	GET	{'url': 'https://www.timeanddate.com/', 'sleep': 10}
+71	FULL SCREENSHOT	{'suffix': '_35'}
+72	GET	{'url': 'https://www.dictionary.com/', 'sleep': 10}
+73	FULL SCREENSHOT	{'suffix': '_36'}
+74	GET	{'url': 'https://www.today.com/', 'sleep': 10}
+75	FULL SCREENSHOT	{'suffix': '_37'}
+76	GET	{'url': 'https://www.tomsguide.com/', 'sleep': 10}
+77	FULL SCREENSHOT	{'suffix': '_38'}
+78	GET	{'url': 'http://www.allscrabblewords.com/', 'sleep': 10}
+79	FULL SCREENSHOT	{'suffix': '_39'}
+80	FINALIZE	{}
+81	END	{}
