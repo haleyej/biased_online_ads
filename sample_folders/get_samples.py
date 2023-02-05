@@ -24,7 +24,7 @@ def get_targets(samples, samples_path):
     files = glob.glob(f"{samples_path}/*.zip")
 
     targets = {}
-    for f in files[:1000]: 
+    for f in files: 
         zip_file = f.split("/")[-1]
         user = zip_file[:10]
         # fix minor naming discrepency 
@@ -68,26 +68,35 @@ def extract_samples(targets, samples, samples_path, extract_path, end_path):
         end_path = absolute path to the final location of the 
                    sampled files
     '''
-    for target, file in list(targets.items()):
+    failed = []
+
+    for target, file in l:
         rows = samples[samples.user == target]
         full_path = f'{samples_path}/{file}'
-        shutil.unpack_archive(full_path, extract_path = extract_dir)
+        try:
+            shutil.unpack_archive(full_path, extract_dir = extract_dir)
+        except: 
+            failed.append((target, "opening"))
+            continue
         # get all examples from particular folder 
         for idx, vals in rows.iterrows():
             site = str(vals['suffix'])
-            # randomly selects one of the screenshots in the user file
-            # that matches the site we want to sample from 
-            files = glob.glob(f'{extract_path}/users/{target}/screenshot_0/data/screenshots/parts/*-_{site}-part*.png')
-            img_file = random.choice(files)
+            files = glob.glob(f'{extract_dir}/users/{target}/screenshot_0/data/screenshots/parts/*-_{site}-part*.png')
+            try:
+                file = random.choice(files)
+            except:
+                failed.append((target, 'site_match'))
+                continue
             new_name = f'{target}_{site}.png'
-            os.rename(img_file, f"{end_path}/{new_name}")
+            os.rename(file, f"{end_path}/{new_name}")
         # delete extra data when migration is done
-        shutil.rmtree(f"{extract_path}/users/{target}")
-
-    return None
+        shutil.rmtree(f"{extract_dir}/users/{target}")
+    
+    failed_df = pd.DataFrame(failed, columns = ['user', 'cause'])
+    return failed_df
 
 def main():
-    samples = pd.read_csv("/Users/haleyjohnson/Desktop/biased_online_ads/files/sampled_users.csv", index_col = 0)
+    samples = pd.read_csv("/Users/haleyjohnson/Desktop/biased_online_ads/files/sampled_users.csv")
 
     # define absolute paths
     samples_path = '/Volumes/Sensitive Group Browsing/Sensitive Group Browsing/Screenshots'
@@ -96,7 +105,8 @@ def main():
 
     targets = get_targets(samples, samples_path)
 
-    extract_samples(targets, samples, samples_path, extract_path, end_path)
+    failed_df = extract_samples(targets, samples, samples_path, extract_path, end_path)
+    failed_df.to_csv("../files/failed.csv", index = False)
 
-if __name__ == __main__():
+if __name__ == "__main__":
     main()
