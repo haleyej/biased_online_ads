@@ -21,13 +21,6 @@ def create_site_look_up(user_id):
     
     ARGS:
     user_id = used to identify the correct commands file 
-    
-    MSG TO SELF: 
-    asssumes everyone has the same path to the commands file
-    come back to file paths 
-    
-    hypothetically this only needs to be run once, 
-    since all users should have the same file structure
     '''
     commands = pd.read_csv(f"example_folder/users/{user_id}/screenshot_0/commands_u{user_id[5:]}_s0.tsv", sep = "\t", header = None, index_col = 0).reset_index(drop = True)
     commands.columns = ['action', 'site']
